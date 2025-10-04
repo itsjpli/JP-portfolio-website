@@ -1,0 +1,101 @@
+[
+  {
+    "id": 9,
+    "title": "Chinese Retail Chains",
+    "publication_name": "Business Insider",
+    "category": "Business",
+    "type": "Interactives",
+    "date": "August 2025",
+    "description": "",
+    "thumbnail": "/images/Chinese_retails.gif",
+    "url": "https://www.businessinsider.com/chinese-retail-brands-labubu-luckin-expand-us-open-stores-data-2025-8"
+  },
+  {
+    "id": 8,
+    "title": "BYD Deep Ocean Shipping",
+    "publication_name": "Business Insider",
+    "category": "Business",
+    "type": "Interactives",
+    "date": "August 2025",
+    "description": "",
+    "thumbnail": "/images/BYDshipping.gif",
+    "url": "https://www.businessinsider.com/see-byds-fleet-car-carrying-cargo-ships-tesla-2025-8"
+  },
+  {
+    "id": 7,
+    "title": "US Data Center Risk",
+    "publication_name": "Business Insider",
+    "category": "Investigation",
+    "type": "Interactives",
+    "date": "June 2025",
+    "description": "",
+    "thumbnail": "/images/datacenter.gif",
+    "url": "https://www.businessinsider.com/ai-data-center-development-true-cost-environmental-impact-2025-6"
+  },
+  {
+    "id": 6,
+    "title": "Option Opportunism",
+    "publication_name": "Business Insider",
+    "category": "Business",
+    "type": "Interactives",
+    "date": "June 2025",
+    "description": "",
+    "thumbnail": "/images/Option_opportunism.gif",
+    "url": "https://www.businessinsider.com/options-opportunism-executive-stock-grant-timing-2025-6"
+  },
+  {
+    "id": 5,
+    "title": "Gen Z slow road",
+    "publication_name": "Business Insider",
+    "category": "Business",
+    "type": "Data Reporting",
+    "date": "April 2025",
+    "description": "",
+    "thumbnail": "/images/GenZ_delay.png",
+    "url": "https://www.businessinsider.com/gen-z-delays-work-marriage-children-homebuying-delayed-development-2025-4"
+  },
+  {
+    "id": 4,
+    "title": "China Renewable Energy Bet",
+    "publication_name": "The Washington Post",
+    "category": "Business",
+    "type": "Data Reporting",
+    "date": "March 2025",
+    "description": "",
+    "thumbnail": "/images/china_renewable.gif",
+    "url": "https://www.washingtonpost.com/climate-solutions/2025/03/03/china-renewable-energy-green-world-leader/"
+  },
+  {
+    "id": 3,
+    "title": "Maine ARPA Budget Overview",
+    "publication_name": "Maine Monitor",
+    "category": "Business",
+    "type": "Data Reporting",
+    "date": "February 2025",
+    "description": "",
+    "thumbnail": "/images/arpa.gif",
+    "url": "https://themainemonitor.org/arpa/"
+  },
+  {
+    "id": 2,
+    "title": "Paris Olympic Medal Tracker",
+    "publication_name": "The Washington Post",
+    "category": "Sports",
+    "type": "Data Reporting",
+    "date": "August 2024",
+    "description": "",
+    "thumbnail": "/images/Olympics_table.gif",
+    "url": "https://www.washingtonpost.com/sports/olympics/2024/08/11/usa-gold-medals-paris-olympics-2024/"
+  },
+  {
+    "id": 1,
+    "title": "Olympic Medal Analysis",
+    "publication_name": "The Washington Post",
+    "category": "Sports",
+    "type": "Data Reporting",
+    "date": "August 2024",
+    "description": "",
+    "thumbnail": "/images/Olympics_analysis.gif",
+    "url": "https://www.washingtonpost.com/sports/olympics/2024/08/09/small-countries-olympic-medals/"
+  }
+]
