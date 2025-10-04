@@ -100,13 +100,14 @@
 		color: #333;
 		text-decoration: none;
 		border: 1.5px solid #333;
-		border-radius: 4px;
+		border-radius: 8px;
 		transition: all 0.2s ease;
 		white-space: nowrap;
 	}
 
 	.newsletter-btn:hover {
-		background-color: #333;
-		color: #F5F1E8;
+		background-color: #F85C03;
+		color: #ffffff;
+		border-color: #F85C03;
 	}
 </style>

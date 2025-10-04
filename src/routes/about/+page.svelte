@@ -15,16 +15,13 @@
 				Hi, I'm Jinpeng Li (李金朋), also go by "JP". I'm a journalist who specializes in using data analysis and visualization to enhance traditional reporting.
 			</p>
 			<p>
-				Previously, I was a data graphics fellow at Business Insider and a researcher at The Dallas Morning News.
+				I have previously analyzed, designed, developed, and written at Business Insider, The Dallas Morning News, The Washington Post, and Investigative Reporting Workshop.
 			</p>
 			<p>
-				I was also a data reporting fellow at The Washington Post and Investigative Reporting Workshop, an innovative "training hospital" journalism nonprofit based at American University in Washington, D.C., through the Dow Jones News Fund.
+				I graduated from the University of Texas at Austin with an M.A. in journalism and media and from Hainan University with a B.A. in finance.
 			</p>
 			<p>
-				I hold a master's degree in journalism and media from the University of Texas at Austin and studied finance in college.
-			</p>
-			<p>
-				I'm actively thinking about the future media landscape and always dreaming of having a dog 🐶.
+				Let's chat! I'm obsessed with imagining the future of media business, and  falling down TikTok animal video rabbit holes 🦒🐘🦩.
 			</p>
 		</div>
 	</section>
@@ -32,7 +29,6 @@
 	<!-- Contact Section -->
 	<section class="contact-section">
 		<div class="contact-content">
-			<p>Feel free to reach out to me through any of the following channels:</p>
 			<div class="contact-details">
 				<div class="contact-item">
 					<strong>Email:</strong> forjpli at gmail dot com
@@ -41,7 +37,7 @@
 					<strong>Signal:</strong> itsjpli.14
 				</div>
 				<div class="contact-item">
-					<strong>Location:</strong> Jersey City, NJ
+					<strong>📍:</strong> Jersey City, NJ
 				</div>
 			</div>
 		</div>
@@ -197,19 +193,55 @@
 
 	/* Responsive */
 	@media (max-width: 768px) {
+		.about-container {
+			padding: 1rem;
+		}
+
 		.intro-section {
 			grid-template-columns: 1fr;
 			gap: 2rem;
+			margin-bottom: 2rem;
 		}
 
 		.photo {
 			width: 100%;
-			max-width: 300px;
+			max-width: 280px;
+			height: 350px;
 			margin: 0 auto;
+			display: block;
 		}
 
 		.photo-container {
 			position: static;
+			text-align: center;
+		}
+
+		.intro-content p {
+			font-size: 1rem;
+			line-height: 1.7;
+			margin-bottom: 1.25rem;
+		}
+
+		.contact-section,
+		.impact-section {
+			padding: 1.5rem;
+			margin-bottom: 1.5rem;
+		}
+
+		.contact-section h2,
+		.impact-section h2 {
+			font-size: 1.5rem;
+			margin-bottom: 1rem;
+		}
+
+		.contact-content p,
+		.news-item p {
+			font-size: 1rem;
+			line-height: 1.6;
+		}
+
+		.news-item h3 {
+			font-size: 1.1rem;
 		}
 	}
 </style>

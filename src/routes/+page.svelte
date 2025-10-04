@@ -2,7 +2,7 @@
 	import projectsData from '$lib/data/projects.json';
 
 	let projects = projectsData;
-	let categories = ['All', 'Business', 'Politics', 'Sports', 'Investigation'];
+	let categories = ['All', 'Business', 'Sports', 'Investigation'];
 	let selectedCategory = 'All';
 	let selectedType = 'Interactives';
 	let featuredProject = projects[0]; // First item = highest ID = newest
@@ -77,11 +77,29 @@
 				{/each}
 			</nav>
 
+			<!-- Type Navigation (Mobile Only) -->
+			<nav class="type-nav-mobile">
+				<button
+					class="type-nav-item"
+					class:active={selectedType === 'Interactives'}
+					on:click={() => selectType('Interactives')}
+				>
+					Interactives
+				</button>
+				<button
+					class="type-nav-item"
+					class:active={selectedType === 'Data Reporting'}
+					on:click={() => selectType('Data Reporting')}
+				>
+					Data Reporting
+				</button>
+			</nav>
+
 			<!-- Scrollable Sections Container -->
 			<div class="sections-container">
 				<!-- Data Graphics Section -->
 				{#if interactiveProjects.length > 0}
-					<div class="project-section">
+					<div class="project-section" class:mobile-hidden={selectedType !== 'Interactives'}>
 						<div class="sticky-label-wrapper">
 							<button
 								class="sticky-label data-graphics"
@@ -112,7 +130,7 @@
 
 				<!-- Data Reporting Section -->
 				{#if dataReportingProjects.length > 0}
-					<div class="project-section">
+					<div class="project-section" class:mobile-hidden={selectedType !== 'Data Reporting'}>
 						<div class="sticky-label-wrapper">
 							<button
 								class="sticky-label data-reporting"
@@ -229,9 +247,10 @@
 	.latest-badge {
 		display: inline-block;
 		padding: 0.5rem 1rem;
-		background: #111827;
+		background: #F85C03;
 		color: #ffffff;
 		font-size: 0.875rem;
+		font-family: 'Manrope', var(--font-heading);
 		font-weight: 700;
 		text-transform: uppercase;
 		letter-spacing: 0.1em;
@@ -241,6 +260,7 @@
 
 	.featured-category {
 		font-size: 0.875rem;
+		font-family: 'Manrope', var(--font-heading);
 		font-weight: 600;
 		color: #6b7280;
 		text-transform: uppercase;
@@ -255,12 +275,14 @@
 
 	.featured-publication {
 		font-size: 0.95rem;
+		font-family: 'Manrope', var(--font-heading);
 		color: #6b7280;
 		font-weight: 500;
 	}
 
 	.featured-date {
 		font-size: 0.875rem;
+		font-family: 'Manrope', var(--font-heading);
 		color: #9ca3af;
 	}
 
@@ -328,6 +350,11 @@
 		background: #E5DCC8;
 		color: #111827;
 		font-weight: 600;
+	}
+
+	/* Type Navigation Mobile */
+	.type-nav-mobile {
+		display: none;
 	}
 
 	/* Main Layout */
@@ -610,32 +637,113 @@
 	}
 
 	@media (max-width: 768px) {
+		.container {
+			padding: 0;
+		}
+
 		.featured-section {
-			padding: 1.5rem;
-			gap: 1.5rem;
+			padding: 1rem;
+			gap: 1rem;
+			grid-template-columns: 1fr;
+			min-height: auto;
+		}
+
+		.featured-image {
+			max-height: 250px;
+			border-radius: 8px;
 		}
 
 		.featured-title {
-			font-size: 2rem;
+			font-size: 1.5rem;
+			margin: 0.25rem 0;
 		}
 
 		.featured-description {
-			font-size: 1rem;
+			font-size: 0.9rem;
+			line-height: 1.5;
+		}
+
+		.featured-badges {
+			gap: 0.5rem;
+		}
+
+		.latest-badge {
+			padding: 0.4rem 0.8rem;
+			font-size: 0.75rem;
+		}
+
+		.featured-category {
+			font-size: 0.75rem;
+		}
+
+		.featured-publication {
+			font-size: 0.85rem;
+		}
+
+		.featured-date {
+			font-size: 0.75rem;
 		}
 
 		.nav-bar {
-			gap: 1rem;
-			padding: 1rem 1.5rem;
+			gap: 0.75rem;
+			padding: 0.75rem 1rem;
 			overflow-x: auto;
+			border-radius: 8px 8px 0 0;
+		}
+
+		.nav-item {
+			padding: 0.4rem 0.8rem;
+			font-size: 0.85rem;
+			white-space: nowrap;
+		}
+
+		.type-nav-mobile {
+			display: flex;
+			gap: 0.5rem;
+			padding: 0.75rem 1rem;
+			background: #F9F4ED;
+			border-top: 1px solid #E5DCC8;
+		}
+
+		.type-nav-item {
+			flex: 1;
+			background: transparent;
+			border: none;
+			padding: 0.5rem 1rem;
+			font-size: 0.85rem;
+			font-family: var(--font-heading);
+			color: #333;
+			cursor: pointer;
+			border-radius: 6px;
+			transition: all 0.2s;
+			font-weight: 500;
+		}
+
+		.type-nav-item:hover {
+			background: #EDE8DC;
+			color: #111827;
+		}
+
+		.type-nav-item.active {
+			background: #E5DCC8;
+			color: #111827;
+			font-weight: 600;
 		}
 
 		.main-layout {
 			grid-template-columns: 1fr;
 			grid-template-rows: auto 1fr;
+			padding: 0 1rem;
+			gap: 1rem;
 		}
 
 		.project-section {
 			grid-template-columns: 1fr;
+			border-radius: 8px;
+		}
+
+		.project-section.mobile-hidden {
+			display: none;
 		}
 
 		.sticky-label-wrapper {
@@ -645,15 +753,48 @@
 		.project-list-container {
 			border-right: none;
 			border-bottom: 1px solid #e5e7eb;
-			max-height: 40vh;
+			max-height: 45vh;
+			border-radius: 8px;
+		}
+
+		.sections-container {
+			padding: 0 1rem 1rem 1rem;
+			gap: 1rem;
+		}
+
+		.project-item {
+			padding: 0.75rem;
+		}
+
+		.project-title {
+			font-size: 0.9rem;
+		}
+
+		.project-publication {
+			font-size: 0.7rem;
 		}
 
 		.project-detail {
-			padding: 1.5rem;
+			padding: 1rem;
 		}
 
 		.detail-title {
-			font-size: 1.75rem;
+			font-size: 1.5rem;
+		}
+
+		.detail-description {
+			font-size: 1rem;
+			line-height: 1.6;
+		}
+
+		.detail-category,
+		.detail-date {
+			font-size: 0.75rem;
+		}
+
+		.detail-visualization {
+			border-radius: 8px;
+			margin-bottom: 1rem;
 		}
 	}
 </style>
