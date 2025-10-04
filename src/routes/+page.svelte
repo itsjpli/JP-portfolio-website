@@ -33,7 +33,7 @@
 </script>
 
 <svelte:head>
-	<title>Interactives</title>
+	<title>Jinpeng Li</title>
 	<meta name="description" content="Interactive project showcase" />
 </svelte:head>
 
