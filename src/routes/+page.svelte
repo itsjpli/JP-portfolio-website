@@ -34,7 +34,7 @@
 
 <svelte:head>
 	<title>Jinpeng Li</title>
-	<meta name="description" content="Interactive project showcase" />
+	<meta name="description" content="Jinpeng Li is a data graphics journalist" />
 </svelte:head>
 
 <div class="container">
@@ -57,7 +57,6 @@
 					{featuredProject.title}
 				</a>
 			</h1>
-			<p class="featured-description">{featuredProject.description}</p>
 		</div>
 	</section>
 
@@ -181,7 +180,9 @@
 				</div>
 
 				<div class="detail-description">
-					<p>{hoveredProject.description}</p>
+					{#each hoveredProject.description.split('\n').filter(p => p.trim()) as paragraph}
+						<p>{paragraph}</p>
+					{/each}
 				</div>
 			{/if}
 		</div>
@@ -312,6 +313,14 @@
 		line-height: 1.6;
 		color: #374151;
 		margin: 0.25rem 0 0 0;
+	}
+
+	.featured-description p {
+		margin: 0 0 0.75rem 0;
+	}
+
+	.featured-description p:last-child {
+		margin-bottom: 0;
 	}
 
 	/* Navigation Bar */
@@ -599,7 +608,11 @@
 	}
 
 	.detail-description p {
-		margin: 0;
+		margin: 0 0 1rem 0;
+	}
+
+	.detail-description p:last-child {
+		margin-bottom: 0;
 	}
 
 	/* Responsive Design */

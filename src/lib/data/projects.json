@@ -6,7 +6,7 @@
     "category": "Business",
     "type": "Interactives",
     "date": "August 2025",
-    "description": "",
+    "description": "Chinese retail chains are betting big that American consumers can revive the growth they're losing at home. I found that in New York City alone, 20 Chinese retail chains have opened more than 40 stores across the food, beverage, and fashion sectors over the past two years.\n\nIt's fun to read these Chinese companies' five-year financial reports and made this interactive map.",
     "thumbnail": "/images/Chinese_retails.gif",
     "url": "https://www.businessinsider.com/chinese-retail-brands-labubu-luckin-expand-us-open-stores-data-2025-8"
   },
@@ -17,7 +17,7 @@
     "category": "Business",
     "type": "Interactives",
     "date": "August 2025",
-    "description": "",
+    "description": "BYD, the Chinese EV company, has taken the unusual step of branching out into deep-sea shipping, quietly building an armada of giant, car-carrying cargo ships to transport its electric cars overseas.\n\nWe obtained data tracking BYD's fleet over the past three years, showing how the Tesla rival is flooding ports in Europe and the Americas with thousands of EVs. I analyzed the shipping data and made this interactive map.",
     "thumbnail": "/images/BYDshipping.gif",
     "url": "https://www.businessinsider.com/see-byds-fleet-car-carrying-cargo-ships-tesla-2025-8"
   },
@@ -28,7 +28,7 @@
     "category": "Investigation",
     "type": "Interactives",
     "date": "June 2025",
-    "description": "",
+    "description": "Business Insider's year-long investigation deep dives into the cost of US data centers and verifies the locations of these data centers, which were intentionally obscured by the government. I contributed static graphics and several maps for this series.\n\nCollaborating with the team, we offer a searchable map of all 1,240 data centers we identified as built or approved for construction by the end of 2024.",
     "thumbnail": "/images/datacenter.gif",
     "url": "https://www.businessinsider.com/ai-data-center-development-true-cost-environmental-impact-2025-6"
   },

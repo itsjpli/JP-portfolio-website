@@ -15,10 +15,10 @@
 				Hi, I'm Jinpeng Li (李金朋), also go by "JP". I'm a journalist who specializes in using data analysis and visualization to enhance traditional reporting.
 			</p>
 			<p>
-				I have previously analyzed, designed, developed, and written at Business Insider, The Dallas Morning News, The Washington Post, and Investigative Reporting Workshop.
+				I have previously analyzed, designed, developed, and written at <a href="https://www.businessinsider.com/author/jinpeng-li" target="_blank" rel="noopener noreferrer">Business Insider</a>, The Dallas Morning News, <a href="https://www.washingtonpost.com/people/jinpeng-li/" target="_blank" rel="noopener noreferrer">The Washington Post</a>, and Investigative Reporting Workshop.
 			</p>
 			<p>
-				I graduated from the University of Texas at Austin with an M.A. in journalism and media and from Hainan University with a B.A. in finance.
+				I graduated from the University of Texas at Austin with a M.A. in journalism and media and from Hainan University with a B.A. in finance.
 			</p>
 			<p>
 				Let's chat! I'm obsessed with imagining the future of media business, and  falling down TikTok animal video rabbit holes 🦒🐘🦩.
