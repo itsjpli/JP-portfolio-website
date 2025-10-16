@@ -24,7 +24,7 @@
 				I hold a master's degree in journalism and media from UT-Austin, where I was awarded the Dallas Morning News Fellowship for Journalism Innovation, the Norris G. Davis Fellowship, and a TPEG scholarship. I also trained at Investigative Reporters & Editors at the University of Missouri, supported by the Dow Jones News Fund. Before moving to the US, I worked as a business reporter in China.
 			</p>
 			<p>
-				Data can be biased, hypotheses can be wrong, methodologies can be limited, and graphics can be inaccessible. Every improvement in my work depends on feedback from editors and colleagues. I'm always eager to hear your thoughts. I'm committed to creating a safe and welcoming space to discuss my work, so please reach out!
+				Data can be biased, hypotheses can be wrong, methodologies can be limited, and graphics can be inaccessible. Every improvement in my work depends on feedback from editors and colleagues. I'm always eager to hear your thoughts. I'm committed to creating a safe and welcoming space to discuss works, so please reach out!
 			</p>
 		</div>
 	</section>

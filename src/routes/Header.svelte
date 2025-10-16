@@ -4,7 +4,7 @@
 
 <header>
 	<div class="left">
-		<a href="/" class="logo">Jinpeng "JP" Li</a>
+		<a href="/" class="logo">"JP" Li</a>
 	</div>
 
 	<nav class="center">
@@ -55,7 +55,7 @@
 	.logo {
 		font-size: 1.75rem;
 		font-weight: 700;
-		font-family: 'Doctor Glitch', var(--font-heading);
+		font-family: 'Rufina', var(--font-heading);
 		color: #1a1a1a;
 		text-decoration: none;
 		transition: opacity 0.2s ease;

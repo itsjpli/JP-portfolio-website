@@ -17,7 +17,7 @@
     "category": "Business",
     "type": "Interactives",
     "date": "August 2025",
-    "description": "BYD, the Chinese EV company, has taken the unusual step of branching out into deep-sea shipping, quietly building an armada of giant, car-carrying cargo ships to transport its electric cars overseas.\n\nWe obtained data tracking BYD's fleet over the past three years, showing how the Tesla rival is flooding ports in Europe and the Americas with thousands of EVs. I analyzed the shipping data and made this interactive map.",
+    "description": "BYD, the Chinese EV company, is quietly building an armada of giant car-carrying cargo ships to transport its electric vehicles overseas.\n\nI conducted an analysis by examining AIS data provided by Marine Traffic, which includes details like Port Call Type, Port at Call, Time at Call, Load Condition, and other useful variables to help verify which countries the ships stopped in. I then cross-referenced each trip with Chinese media coverage to verify completeness. I used an interactive map to show how BYD has increased its electric vehicle exports to European countries and continuously expanded its reach over three years.",
     "thumbnail": "/images/BYDshipping.gif",
     "url": "https://www.businessinsider.com/see-byds-fleet-car-carrying-cargo-ships-tesla-2025-8"
   },
@@ -28,7 +28,7 @@
     "category": "Investigation",
     "type": "Interactives",
     "date": "June 2025",
-    "description": "Business Insider's year-long investigation deep dives into the cost of US data centers and verifies the locations of these data centers, which were intentionally obscured by the government. I contributed static graphics and several maps for this series.\n\nCollaborating with the team, we offer a searchable map of all 1,240 data centers we identified as built or approved for construction by the end of 2024.",
+    "description": "This project was a year-long investigation with around 40 reporters and editors examining the explosive growth of the data center industry. Our reporting found 1,240 data centers in the US either already built or approved for construction by the end of 2024.\n\nI contributed all static graphics for this series and conducted analysis to create a repeatable-use public health costs map using Mapbox GL. After publishing, I worked with my editor to produce an interactive tool to help readers look up these 1,240 data centers.",
     "thumbnail": "/images/datacenter.gif",
     "url": "https://www.businessinsider.com/ai-data-center-development-true-cost-environmental-impact-2025-6"
   },
@@ -39,7 +39,7 @@
     "category": "Business",
     "type": "Interactives",
     "date": "June 2025",
-    "description": "",
+    "description": "I created this scroll-based line chart to show changes in S&P 500 stock prices before and after CEO grant dates. The charts reveal a clear V trend, suggesting that firms opportunistically inflated their valuations around these dates.",
     "thumbnail": "/images/Option_opportunism.gif",
     "url": "https://www.businessinsider.com/options-opportunism-executive-stock-grant-timing-2025-6"
   },
