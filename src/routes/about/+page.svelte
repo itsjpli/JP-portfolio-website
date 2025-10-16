@@ -12,16 +12,19 @@
 		</div>
 		<div class="intro-content">
 			<p>
-				Hi, I'm Jinpeng Li (李金朋), also go by "JP". I'm a journalist who specializes in using data analysis and visualization to enhance traditional reporting.
+				When I arrived in the States in 2022, data journalism felt like the last glimmer of hope that traditional journalism was showing me. In an era of information overload and blind conformity, I realized that narratives built on databases and documents have real staying power and impact.
 			</p>
 			<p>
-				I have previously analyzed, designed, developed, and written at <a href="https://www.businessinsider.com/author/jinpeng-li" target="_blank" rel="noopener noreferrer">Business Insider</a>, The Dallas Morning News, <a href="https://www.washingtonpost.com/people/jinpeng-li/" target="_blank" rel="noopener noreferrer">The Washington Post</a>, and Investigative Reporting Workshop.
+				Since then, I've been building databases and using data analysis to uncover patterns and connections that support traditional reporting. I also translate complex realities into something comprehensible and accessible through data visualizations, maps, and tables—sometimes, these become the story itself.
 			</p>
 			<p>
-				I graduated from the University of Texas at Austin with a M.A. in journalism and media and from Hainan University with a B.A. in finance.
+				I've worked in different types of newsrooms and collaborated with reporters across beats. Previously, I was a data graphics fellow at <a href="https://www.businessinsider.com/author/jinpeng-li" target="_blank" rel="noopener noreferrer">Business Insider</a>, a data reporting fellow at <a href="https://www.washingtonpost.com/people/jinpeng-li/" target="_blank" rel="noopener noreferrer">The Washington Post</a> and Investigative Reporting Workshop, and an election researcher at The Dallas Morning News.
 			</p>
 			<p>
-				Let's chat! I'm obsessed with imagining the future of media business, and  falling down TikTok animal video rabbit holes 🦒🐘🦩.
+				I hold a master's degree in journalism and media from UT-Austin, where I was awarded the Dallas Morning News Fellowship for Journalism Innovation, the Norris G. Davis Fellowship, and a TPEG scholarship. I also trained at Investigative Reporters & Editors at the University of Missouri, supported by the Dow Jones News Fund. Before moving to the US, I worked as a business reporter in China.
+			</p>
+			<p>
+				Data can be biased, hypotheses can be wrong, methodologies can be limited, and graphics can be inaccessible. Every improvement in my work depends on feedback from editors and colleagues. I'm always eager to hear your thoughts. I'm committed to creating a safe and welcoming space to discuss my work, so please reach out!
 			</p>
 		</div>
 	</section>
