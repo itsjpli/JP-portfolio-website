@@ -19,7 +19,9 @@
 <div class="header-container">
 	<header>
 		<div class="left">
-			<a href="/" class="logo">"JP" Li</a>
+			<a href="/" class="logo">
+				<img src="/signature.svg" alt="JP Li" />
+			</a>
 		</div>
 
 		<nav class="center">
@@ -86,12 +88,15 @@
 	}
 
 	.logo {
-		font-size: 1.75rem;
-		font-weight: 700;
-		font-family: 'Rufina', var(--font-heading);
-		color: #1a1a1a;
+		display: flex;
+		align-items: center;
 		text-decoration: none;
 		transition: opacity 0.2s ease;
+	}
+
+	.logo img {
+		height: 40px;
+		width: auto;
 	}
 
 	.logo:hover {

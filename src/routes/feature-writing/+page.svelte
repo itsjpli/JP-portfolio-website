@@ -43,16 +43,16 @@
 				为了让代表性不足的亚裔群体发声，纠正中文世界对美国社会长期以来基于错误信息的误解，他致力于创作不受党派偏见影响、以人为本的报道。他的作品涵盖美国政治与政策、科技权力及国际事务。
 			</p>
 			<p class="intro-text english">
-				He recognizes living in the US as a privilege. To amplify underrepresented Asian community voices and counter the misinformation that shapes Chinese-speaking audiences' understanding of American society, he writes human-drive narrativesfree from partisan bias. His work covers US politics and policy, technology and power, and international affairs.
+				He recognizes living in the US as a privilege. To amplify underrepresented Asian community voices and counter the misinformation that shapes Chinese-speaking audiences' understanding of American society, he writes human-drive narratives free from partisan bias. His work covers US politics and policy, technology and power, and international affairs.
 			</p>
 		</div>
 
 		<div class="bio-block">
 			<p class="intro-text chinese">
-				出于对新闻自由的支持，他与多家独立媒体合作，目前是端传媒和硅谷101的固定撰稿人。他的特稿写作方法要求每篇报道至少采访三类立场不同的利益相关者——他的单篇报道平均采访八位消息来源。
+				他支持新闻自由，与多家独立媒体合作，目前是端传媒和硅谷101的固定撰稿人。他的特稿写作方法要求每篇报道至少采访三类立场不同的利益相关者——他的单篇报道平均采访八位消息来源。
 			</p>
 			<p class="intro-text english">
-				In support of press freedom, he collaborates with independent media outlets and is currently a regular contributor to Initium Media and TheValey101. His feature writing methodology requires interviewing at least three types of stakeholders with differing perspectives for each story—he has averaged eight sources per piece.
+				In support of press freedom, he collaborates with independent media outlets and is currently a regular contributor to Initium Media and TheValley101. His feature writing methodology requires interviewing at least three types of stakeholders with differing perspectives for each story—he has averaged eight sources per piece.
 			</p>
 		</div>
 
