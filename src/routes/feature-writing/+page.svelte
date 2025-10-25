@@ -1,26 +1,5 @@
 <script>
-	// Feature Writing page content will go here
-	const recentWork = [
-		// Placeholder data - you can replace with actual articles
-		{
-			title: "德州土地法案反抗者 Texas Asian Land Bill",
-			publication: "Initium Media",
-			date: "Jan 2025",
-			url: "https://theinitium.com/zh-hans/article/20250114-international-chinese-american-commuinity-protest-against-texas-property-bill"
-		},
-		{
-			title: "TikTok关门 TikTok shut down",
-			publication: "Yimagazine",
-			date: "Jan 2025",
-			url: "https://mp.weixin.qq.com/s/vAGNAA7ycekYKlo9zecD_A"
-		},
-		{
-			title: "TikTok电商 TikTok Chinese Seller",
-			publication: "Yimagazine",
-			date: "Dec 2024",
-			url: "https://mp.weixin.qq.com/s/b6Lp2g2xzWyj2u7k7KBASQ"
-		}
-	];
+	import recentWork from '$lib/data/feature-writing.json';
 </script>
 
 <svelte:head>
@@ -70,12 +49,24 @@
 		<h2>Recent Work</h2>
 		<div class="work-list">
 			{#each recentWork as work}
-				<div class="work-item">
-					<a href={work.url} class="work-title" target="_blank" rel="noopener noreferrer">
-						{work.title}
-					</a>
-					<span class="work-date">{work.date}</span>
-				</div>
+				<a href={work.url} class="work-item" target="_blank" rel="noopener noreferrer">
+					<div class="work-image">
+						<img src={work.image} alt={work.titleEnglish} />
+					</div>
+					<div class="work-content">
+						<div class="work-titles">
+							<h3 class="work-title-chinese">{work.titleChinese}</h3>
+							<h4 class="work-title-english">{work.titleEnglish}</h4>
+						</div>
+						<div class="work-meta">
+							<span class="work-publication">{work.publication}</span>
+							<span class="work-date">{work.date}</span>
+						</div>
+						{#if work.description}
+							<p class="work-description">{work.description}</p>
+						{/if}
+					</div>
+				</a>
 			{/each}
 		</div>
 	</div>
@@ -99,7 +90,6 @@
 		margin-bottom: 1.5rem;
 		padding-bottom: 1.5rem;
 		border-bottom: 1px solid #e5e7eb;
-		max-width: 900px;
 	}
 
 	.bio-block:last-child {
@@ -145,35 +135,99 @@
 	}
 
 	.work-list {
-		display: grid;
-		grid-template-columns: repeat(2, 1fr);
-		gap: 2rem 3rem;
+		display: flex;
+		flex-direction: column;
+		gap: 3rem;
 	}
 
 	.work-item {
 		display: flex;
-		justify-content: space-between;
-		align-items: baseline;
+		gap: 2rem;
+		text-decoration: none;
+		transition: transform 0.2s ease;
+		border-bottom: 1px solid #e5e7eb;
+		padding-bottom: 2rem;
+	}
+
+	.work-item:last-child {
+		border-bottom: none;
+	}
+
+	.work-item:hover {
+		transform: translateX(8px);
+	}
+
+	.work-image {
+		flex-shrink: 0;
+		width: 50%;
+		aspect-ratio: 16 / 9;
+		max-height: 300px;
+		overflow: hidden;
+		border-radius: 4px;
+		background: #f3f4f6;
+	}
+
+	.work-image img {
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+	}
+
+	.work-content {
+		flex: 1;
+		display: flex;
+		flex-direction: column;
 		gap: 1rem;
 	}
 
-	.work-title {
-		font-size: 1.1rem;
-		font-family: 'Lora', serif;
-		color: #1a1a1a;
-		text-decoration: none;
-		transition: color 0.2s ease;
-		flex: 1;
+	.work-titles {
+		display: flex;
+		align-items: baseline;
+		gap: 1rem;
+		flex-wrap: wrap;
 	}
 
-	.work-title:hover {
-		color: #F85C03;
+	.work-title-chinese {
+		font-size: 1.75rem;
+		font-family: 'SimSun', '宋体', serif;
+		color: #1a1a1a;
+		margin: 0;
+		line-height: 1.3;
+	}
+
+	.work-title-english {
+		font-size: 1.25rem;
+		font-family: 'Lora', serif;
+		color: #4b5563;
+		font-weight: 400;
+		margin: 0;
+		line-height: 1.3;
+	}
+
+	.work-meta {
+		display: flex;
+		gap: 1rem;
+		align-items: center;
+	}
+
+	.work-publication {
+		font-size: 0.95rem;
+		font-family: 'Lora', serif;
+		color: #9ca3af;
+		font-weight: 400;
 	}
 
 	.work-date {
-		font-size: 0.95rem;
+		font-size: 0.9rem;
+		font-family: 'Lora', serif;
+		color: #9ca3af;
+	}
+
+	.work-description {
+		font-size: 1rem;
 		font-family: 'Lora', serif;
 		color: #6b7280;
-		white-space: nowrap;
+		line-height: 1.7;
+		margin: 0.5rem 0 0 0;
 	}
 </style>
