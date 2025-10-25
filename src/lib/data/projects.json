@@ -50,7 +50,7 @@
     "category": "Business",
     "type": "Data Reporting",
     "date": "April 2025",
-    "description": "",
+    "description": "A reporter observed that Gen Z appears to be living life at a slower pace—launching careers later, delaying marriage, and postponing milestones. I used the Current Population Survey through IPUMS to support this trend, finding significant declines in both the percentage of Americans married by age 24 and the share of 24-year-olds with children. I visualized the data in Datawrapper and conducted analysis in R.",
     "thumbnail": "/images/GenZ_delay.png",
     "url": "https://www.businessinsider.com/gen-z-delays-work-marriage-children-homebuying-delayed-development-2025-4"
   },
@@ -61,7 +61,7 @@
     "category": "Business",
     "type": "Data Reporting",
     "date": "March 2025",
-    "description": "",
+    "description": "I collaborated with China Correspondent Christian Shepherd on this ambitious series, also my first print byline at WaPo. We analyzed 15+ hard-to-get datasets, created 12 graphics (including a companion piece on EVs), reviewed dozens of academic papers and research reports, and interviewed industry experts to examine China's dominance across every aspect of clean energy. The series was widely cited by nonprofits, research institutions, and international media outlets.",
     "thumbnail": "/images/china_renewable.gif",
     "url": "https://www.washingtonpost.com/climate-solutions/2025/03/03/china-renewable-energy-green-world-leader/"
   },
