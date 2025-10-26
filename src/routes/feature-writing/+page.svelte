@@ -7,6 +7,11 @@
 </svelte:head>
 
 <div class="container">
+	<p class="notice">
+		I code, but sometimes I'm on the road.<br />
+		This page is for Chinese-speaking audiences and media.
+	</p>
+
 	<div class="intro-section">
 		<div class="bio-block">
 			<p class="intro-text chinese">
@@ -79,6 +84,15 @@
 		padding: 2rem 0;
 	}
 
+	.notice {
+		font-size: 0.75rem;
+		color: #9ca3af;
+		font-family: 'Lora', serif;
+		line-height: 1.5;
+		margin: 0 0 2rem 0;
+		text-align: center;
+	}
+
 	.intro-section {
 		margin-bottom: 4rem;
 	}
@@ -137,16 +151,16 @@
 	.work-list {
 		display: flex;
 		flex-direction: column;
-		gap: 3rem;
+		gap: 1rem;
 	}
 
 	.work-item {
 		display: flex;
-		gap: 2rem;
+		gap: 1rem;
 		text-decoration: none;
 		transition: transform 0.2s ease;
 		border-bottom: 1px solid #e5e7eb;
-		padding-bottom: 2rem;
+		padding-bottom: 1rem;
 	}
 
 	.work-item:last-child {
@@ -159,9 +173,9 @@
 
 	.work-image {
 		flex-shrink: 0;
-		width: 50%;
+		width: 30%;
 		aspect-ratio: 16 / 9;
-		max-height: 300px;
+		max-height: 140px;
 		overflow: hidden;
 		border-radius: 4px;
 		background: #f3f4f6;
@@ -177,18 +191,18 @@
 		flex: 1;
 		display: flex;
 		flex-direction: column;
-		gap: 1rem;
+		gap: 0.5rem;
 	}
 
 	.work-titles {
 		display: flex;
 		align-items: baseline;
-		gap: 1rem;
+		gap: 0.75rem;
 		flex-wrap: wrap;
 	}
 
 	.work-title-chinese {
-		font-size: 1.75rem;
+		font-size: 1.15rem;
 		font-family: 'SimSun', '宋体', serif;
 		color: #1a1a1a;
 		margin: 0;
@@ -196,7 +210,7 @@
 	}
 
 	.work-title-english {
-		font-size: 1.25rem;
+		font-size: 0.9rem;
 		font-family: 'Lora', serif;
 		color: #4b5563;
 		font-weight: 400;
@@ -211,23 +225,23 @@
 	}
 
 	.work-publication {
-		font-size: 0.95rem;
+		font-size: 0.85rem;
 		font-family: 'Lora', serif;
 		color: #9ca3af;
 		font-weight: 400;
 	}
 
 	.work-date {
-		font-size: 0.9rem;
+		font-size: 0.85rem;
 		font-family: 'Lora', serif;
 		color: #9ca3af;
 	}
 
 	.work-description {
-		font-size: 1rem;
+		font-size: 0.85rem;
 		font-family: 'Lora', serif;
 		color: #6b7280;
-		line-height: 1.7;
-		margin: 0.5rem 0 0 0;
+		line-height: 1.5;
+		margin: 0.25rem 0 0 0;
 	}
 </style>
