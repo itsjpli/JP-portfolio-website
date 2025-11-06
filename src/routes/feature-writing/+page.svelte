@@ -18,7 +18,7 @@
 				李金朋是驻纽约的自由记者,长期从事分析报道和特稿写作。他的作品见于端传媒、财新网、《第一财经杂志》等主流媒体,读者覆盖数百万。
 			</p>
 			<p class="intro-text english">
-				Jinpeng Li is a New York City-based freelance journalist specializing in analytical and feature writing. His work has reached millions of readers across the Chinese-speaking world through top-tier publications including Initium Media, Caixin Media, and Yimagazine.
+				Jinpeng Li is a New York City-based freelance journalist specializing in analytical and feature writing. His work has reached millions of readers across the Chinese-speaking world through major publications including Initium Media, Caixin Media, and Yimagazine.
 			</p>
 		</div>
 
@@ -33,10 +33,10 @@
 
 		<div class="bio-block">
 			<p class="intro-text chinese">
-				他支持新闻自由，与多家独立媒体合作，目前是端传媒的固定撰稿人。他的特稿写作方法要求每篇报道至少采访三类立场不同的利益相关者——他的单篇报道平均采访八位消息来源。
+				他支持新闻自由，与多家独立媒体合作，目前是端传媒的特约撰稿人。他的特稿写作方法要求每篇报道至少采访三类立场不同的利益相关者——他的单篇报道平均采访八位消息来源。
 			</p>
 			<p class="intro-text english">
-				In support of press freedom, he collaborates with independent media outlets and is currently a regular contributor to Initium Media. His feature writing methodology requires interviewing at least three types of stakeholders with differing perspectives for each story—he has averaged eight sources per piece.
+				In support of press freedom, he collaborates with independent media outlets and is currently a contributing writer to Initium Media. His feature writing methodology requires interviewing at least three types of stakeholders with differing perspectives for each story—he has averaged eight sources per piece.
 			</p>
 		</div>
 
