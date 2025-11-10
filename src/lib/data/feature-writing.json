@@ -1,20 +1,26 @@
 [
   {
-    "titleChinese": "德州土地法案反抗者",
-    "titleEnglish": "Texas Asian Land Bill",
+    "titleChinese": "纽约市长大选",
+    "titleEnglish": "NYC Mayoral Election",
     "publication": "Initium Media",
-    "date": "Jan 2025",
-    "description": "",
-    "image": "/images/Texas.png",
-    "url": "https://theinitium.com/zh-hans/article/20250114-international-chinese-american-commuinity-protest-against-texas-property-bill"
+    "date": "Nov 2025",
+    "description": "<a href='https://theinitium.com/20251107-international-has-mamdani-convinced-nyc-chinese/' target='_blank' rel='noopener noreferrer'><strong>Feature:</strong> 新市長來了：年輕進步的穆斯林Mamdani，真有說服紐約華人選民？</a><br><br><a href='https://www.youtube.com/watch?v=Ox5_azfJPFA' target='_blank' rel='noopener noreferrer'><strong>Podcast:</strong> 從無人知曉到紐約市長，Mamdani 如何逆襲？</a>",
+    "image": "/images/mamdani.png"
   },
   {
-    "titleChinese": "TikTok关门",
-    "titleEnglish": "TikTok Seller",
+    "titleChinese": "德州土地法案反抗者",
+    "titleEnglish": "Texas Chinese Land Bill",
+    "publication": "Initium Media",
+    "date": "Jan 2025",
+    "description": "<a href='https://theinitium.com/zh-hans/article/20250114-international-chinese-american-commuinity-protest-against-texas-property-bill' target='_blank' rel='noopener noreferrer'><strong>Feature:</strong> 抵抗「惡法」：一條土地法案，怎樣動員起美國德州華人社區的抗爭意識？</a><br><br><a href='https://www.youtube.com/watch?v=cihVwcKhqDM' target='_blank' rel='noopener noreferrer'><strong>Podcast:</strong> 遊行、聽證、談判：德州華人如何抵抗「土地法案」</a>",
+    "image": "/images/Texas.png"
+  },
+  {
+    "titleChinese": "TikTok中国商人",
+    "titleEnglish": "TikTok Business Owner",
     "publication": "Yimagazine",
     "date": "Jan 2025",
-    "description": "",
-    "image": "/images/TikTok_seller.png",
-    "url": "https://mp.weixin.qq.com/s/vAGNAA7ycekYKlo9zecD_A"
+    "description": "<a href='https://mp.weixin.qq.com/s/vAGNAA7ycekYKlo9zecD_A' target='_blank' rel='noopener noreferrer'><strong>Breaking News:</strong> 最后75天续命期，TikTok淘金者的去留抉择</a><br><br><a href='https://mp.weixin.qq.com/s/b6Lp2g2xzWyj2u7k7KBASQ' target='_blank' rel='noopener noreferrer'><strong>Feature:</strong> TikTok电商：和时间赛跑</a>",
+    "image": "/images/TikTok_seller.png"
   }
 ]

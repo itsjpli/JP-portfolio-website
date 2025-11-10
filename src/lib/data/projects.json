@@ -1,5 +1,16 @@
 [
   {
+    "id": 10,
+    "title": "Young Cancer",
+    "publication_name": "Business Insider",
+    "category": "Business",
+    "type": "Interactives",
+    "date": "November 2025",
+    "description": "",
+    "thumbnail": "/images/youngcancer.gif",
+    "url": "https://www.businessinsider.com/true-cost-young-colon-cancer-crisis-2025-10"
+  },
+  {
     "id": 9,
     "title": "Chinese Retail Chains",
     "publication_name": "Business Insider",

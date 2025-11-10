@@ -9,16 +9,15 @@
 <div class="container">
 	<p class="notice">
 		I code, but sometimes I'm on the road.<br />
-		This page is for Chinese-speaking audiences and media.
 	</p>
 
 	<div class="intro-section">
 		<div class="bio-block">
 			<p class="intro-text chinese">
-				李金朋是驻纽约的自由记者,长期从事分析报道和特稿写作。他的作品见于端传媒、财新网、《第一财经杂志》等主流媒体,读者覆盖数百万。
+				李金朋是驻纽约的自由记者,长期从事分析报道和特稿写作。他的作品见于<a href="https://theinitium.com/author/jinpengli/" target="_blank" rel="noopener noreferrer">端传媒</a>、<a href="https://search.caixin.com/newsearch/caixinsearch?keyword=%E6%9D%8E%E9%87%91%E6%9C%8B&x=11&y=11" target="_blank" rel="noopener noreferrer">财新网</a>、<a href="https://www.cbnweek.com/author_detail/794" target="_blank" rel="noopener noreferrer">《第一财经杂志》</a>等媒体,读者覆盖数百万。
 			</p>
 			<p class="intro-text english">
-				Jinpeng Li is a New York City-based freelance journalist specializing in analytical and feature writing. His work has reached millions of readers across the Chinese-speaking world through major publications including Initium Media, Caixin Media, and Yimagazine.
+				Jinpeng Li is a New York City-based freelance journalist specializing in analytical and feature writing. His work has reached millions of readers across the Chinese-speaking world through major publications including <a href="https://theinitium.com/author/jinpengli/" target="_blank" rel="noopener noreferrer">Initium Media</a>, <a href="https://search.caixin.com/newsearch/caixinsearch?keyword=%E6%9D%8E%E9%87%91%E6%9C%8B&x=11&y=11" target="_blank" rel="noopener noreferrer">Caixin Media</a>, and <a href="https://www.cbnweek.com/author_detail/794" target="_blank" rel="noopener noreferrer">Yimagazine</a>.
 			</p>
 		</div>
 
@@ -54,7 +53,7 @@
 		<h2>Recent Work</h2>
 		<div class="work-list">
 			{#each recentWork as work}
-				<a href={work.url} class="work-item" target="_blank" rel="noopener noreferrer">
+				<div class="work-item">
 					<div class="work-image">
 						<img src={work.image} alt={work.titleEnglish} />
 					</div>
@@ -68,10 +67,10 @@
 							<span class="work-date">{work.date}</span>
 						</div>
 						{#if work.description}
-							<p class="work-description">{work.description}</p>
+							<div class="work-description">{@html work.description}</div>
 						{/if}
 					</div>
-				</a>
+				</div>
 			{/each}
 		</div>
 	</div>
@@ -241,7 +240,16 @@
 		font-size: 0.85rem;
 		font-family: 'Lora', serif;
 		color: #6b7280;
-		line-height: 1.5;
+		line-height: 1.3;
 		margin: 0.25rem 0 0 0;
+	}
+
+	.work-description :global(a) {
+		color: #6b7280;
+		text-decoration: none;
+	}
+
+	.work-description :global(a:hover) {
+		text-decoration: underline;
 	}
 </style>
