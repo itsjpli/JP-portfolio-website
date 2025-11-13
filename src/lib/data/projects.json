@@ -1,6 +1,6 @@
 [
   {
-    "id": 10,
+    "id": 12,
     "title": "Young Cancer",
     "publication_name": "Business Insider",
     "category": "Business",
@@ -9,6 +9,28 @@
     "description": "",
     "thumbnail": "/images/youngcancer.gif",
     "url": "https://www.businessinsider.com/true-cost-young-colon-cancer-crisis-2025-10"
+  },
+  {
+    "id": 11,
+    "title": "Conservative Podcast Ads",
+    "publication_name": "Personal Project",
+    "category": "Business",
+    "type": "Interactives",
+    "date": "September 2025",
+    "description": "",
+    "thumbnail": "/images/podcast_ads.gif",
+    "url": ""
+  },
+  {
+    "id": 10,
+    "title": "Trump Gold Card",
+    "publication_name": "Personal Project",
+    "category": "Business",
+    "type": "Interactives",
+    "date": "September 2025",
+    "description": "",
+    "thumbnail": "/images/goldcard.gif",
+    "url": ""
   },
   {
     "id": 9,
