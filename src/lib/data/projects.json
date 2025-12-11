@@ -6,7 +6,7 @@
     "category": "Business",
     "type": "Interactives",
     "date": "November 2025",
-    "description": "",
+    "description": "BI's health team noticed the rise of cancer in young adults. I designed this header graphic with editorial guidance, using CSS to create a meteor-shower effect where each meteor represents an individual patient striking from the distance toward the viewer. The black-and-white palette creates a somber, dignified atmosphere. This design weaves together personal stories and broader data to reveal this troubling trend.",
     "thumbnail": "/images/youngcancer.gif",
     "url": "https://www.businessinsider.com/true-cost-young-colon-cancer-crisis-2025-10"
   },
@@ -17,7 +17,7 @@
     "category": "Business",
     "type": "Interactives",
     "date": "September 2025",
-    "description": "",
+    "description": "I scraped and analyzed approximately 2,700 ads from seven right-leaning podcasts that hosted Trump before the election, using Podscribe data from August 2024 to July 2025. I designed the methodology and wrote a story about these insights. After Bloomberg published a similar investigation, I shared my research, and their editors praised it as ‘fantastic work.’ Reach out to me to read the full story.",
     "thumbnail": "/images/podcast_ads.gif",
     "url": ""
   },
@@ -28,7 +28,7 @@
     "category": "Business",
     "type": "Interactives",
     "date": "September 2025",
-    "description": "",
+    "description": "I researched investment-based immigration systems across different countries by reading extensive policy materials, interviewed four people about Trump's $5 million Gold Card program, and created three interactive charts for this story. Reach out to me to read the full story.",
     "thumbnail": "/images/goldcard.gif",
     "url": ""
   },
@@ -105,7 +105,7 @@
     "category": "Business",
     "type": "Data Reporting",
     "date": "February 2025",
-    "description": "",
+    "description": "An analysis and searchable database of where the $261 million that came to Maine through the American Rescue Plan Act ended up.",
     "thumbnail": "/images/arpa.gif",
     "url": "https://themainemonitor.org/arpa/"
   },
@@ -127,7 +127,7 @@
     "category": "Sports",
     "type": "Data Reporting",
     "date": "August 2024",
-    "description": "",
+    "description": "An in-depth analysis and follow-up stories of the Olympic medal count.",
     "thumbnail": "/images/Olympics_analysis.gif",
     "url": "https://www.washingtonpost.com/sports/olympics/2024/08/09/small-countries-olympic-medals/"
   }

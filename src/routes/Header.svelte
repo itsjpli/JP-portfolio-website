@@ -1,9 +1,11 @@
 <script>
 	import { page } from '$app/state';
+	import { onMount } from 'svelte';
 
 	let { onDropdownChange = () => {} } = $props();
 
 	let dropdownOpen = $state(false);
+	let navWrapper;
 
 	function toggleDropdown() {
 		dropdownOpen = !dropdownOpen;
@@ -14,6 +16,19 @@
 		dropdownOpen = false;
 		onDropdownChange(false);
 	}
+
+	function handleClickOutside(event) {
+		if (navWrapper && !navWrapper.contains(event.target) && dropdownOpen) {
+			closeDropdown();
+		}
+	}
+
+	onMount(() => {
+		document.addEventListener('click', handleClickOutside);
+		return () => {
+			document.removeEventListener('click', handleClickOutside);
+		};
+	});
 </script>
 
 <div class="header-container">
@@ -25,7 +40,7 @@
 		</div>
 
 		<nav class="center">
-			<div class="nav-item-wrapper">
+			<div class="nav-item-wrapper" bind:this={navWrapper}>
 				<button class="nav-link work-dropdown" onclick={toggleDropdown}>
 					Work
 					<svg class="chevron" class:rotated={dropdownOpen} width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">

@@ -18,13 +18,13 @@
 				Since then, I've been building databases and using data analysis to uncover patterns and connections that support traditional reporting. I also translate complex realities into something comprehensible and accessible through data visualizations, maps, and tables—sometimes, these become the story itself.
 			</p>
 			<p>
-				 I covered a variety of stories while on local, national and foreign assignments,  worked in different types of newsrooms and collaborated with reporters across beats. Previously, I was a data graphics fellow at <a href="https://www.businessinsider.com/author/jinpeng-li" target="_blank" rel="noopener noreferrer">Business Insider</a>, a data reporting fellow at <a href="https://www.washingtonpost.com/people/jinpeng-li/" target="_blank" rel="noopener noreferrer">The Washington Post</a> and Investigative Reporting Workshop, and an election researcher at The Dallas Morning News.
+				 I worked in different types of newsrooms, collaborated with reporters across beats, and covered a variety of stories on local, national and foreign assignments. Previously, I was a data graphics fellow at <a href="https://www.businessinsider.com/author/jinpeng-li" target="_blank" rel="noopener noreferrer">Business Insider</a>, a data reporting fellow at <a href="https://www.washingtonpost.com/people/jinpeng-li/" target="_blank" rel="noopener noreferrer">The Washington Post</a> and Investigative Reporting Workshop, and an election researcher at The Dallas Morning News.
 			</p>
 			<p>
 				I hold a master's degree in journalism and media from UT-Austin, where I was awarded the Dallas Morning News Fellowship for Journalism Innovation, the Norris G. Davis Fellowship, and a TPEG scholarship. I also trained at Investigative Reporters & Editors at the University of Missouri, supported by the Dow Jones News Fund. Before moving to the US, I worked as a business reporter in China.
 			</p>
 			<p>
-				Data can be biased, hypotheses can be wrong, methodologies can be limited, and graphics can be inaccessible. Every improvement in my work depends on feedback from editors and colleagues. I'm always eager to hear people's thoughts. I'm committed to creating a safe and welcoming space to discuss works, so please reach out!
+				Data can be biased, hypotheses can be wrong, methodologies can be limited, and graphics can be misleading. Every improvement in my work depends on feedback from editors and colleagues. I'm always eager to hear people's thoughts. I'm committed to creating a safe and welcoming space to discuss works, so please reach out!
 			</p>
 		</div>
 	</section>
@@ -51,15 +51,13 @@
 		<h2>In the News</h2>
 		<div class="impact-content">
 			<div class="news-item">
-				<h3><a href="https://www.forbes.com/sites/stevendesmyter/2024/08/19/post-olympics-analysis-a-reader/" target="_blank" rel="noopener noreferrer">Forbes, Aug. 2024</a></h3>
 				<p>
-					Forbes dedicated half the piece to citing my research, describing it as one of "the best and most insightful pieces of research" and "a superb analysis of the Olympic medals tables"
+					<span class="date">2024.08</span>  <a href="https://www.forbes.com/sites/stevendesmyter/2024/08/19/post-olympics-analysis-a-reader/" target="_blank" rel="noopener noreferrer">Forbes</a> dedicated half the piece to citing my research, describing it as one of "the best and most insightful pieces of research" and "a superb analysis of the Olympic medals tables"
 				</p>
 			</div>
 			<div class="news-item">
-				<h3><a href="https://www.cosmopolitan.com/entertainment/tv/a61852264/who-won-the-olympics/" target="_blank" rel="noopener noreferrer">Cosmopolitan, Aug. 2024</a></h3>
 				<p>
-					Cosmopolitan references my tracking of Team USA's dominance of the Olympic medal table.
+					<span class="date">2024.08</span>  <a href="https://www.cosmopolitan.com/entertainment/tv/a61852264/who-won-the-olympics/" target="_blank" rel="noopener noreferrer">Cosmopolitan</a> references my tracking of Team USA's dominance of the Olympic medal table.
 				</p>
 			</div>
 		</div>
@@ -169,29 +167,30 @@
 	.impact-content {
 		display: flex;
 		flex-direction: column;
-		gap: 2rem;
-	}
-
-	.news-item h3 {
-		font-size: 1.3rem;
-		font-weight: 600;
-		margin-bottom: 0.75rem;
-	}
-
-	.news-item h3 a {
-		color: #111827;
-		text-decoration: none;
-	}
-
-	.news-item h3 a:hover {
-		color: #6b7280;
-		text-decoration: underline;
+		gap: 1rem;
 	}
 
 	.news-item p {
 		font-size: 1.1rem;
 		color: #374151;
 		line-height: 1.8;
+		margin-bottom: 0;
+	}
+
+	.news-item .date {
+		color: #374151;
+		font-weight: 600;
+	}
+
+	.news-item a {
+		color: #ea580c;
+		text-decoration: none;
+		font-weight: 600;
+	}
+
+	.news-item a:hover {
+		color: #c2410c;
+		text-decoration: underline;
 	}
 
 	/* Responsive */
@@ -241,10 +240,6 @@
 		.news-item p {
 			font-size: 1rem;
 			line-height: 1.6;
-		}
-
-		.news-item h3 {
-			font-size: 1.1rem;
 		}
 	}
 </style>

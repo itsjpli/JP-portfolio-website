@@ -14,7 +14,7 @@
 	<div class="intro-section">
 		<div class="bio-block">
 			<p class="intro-text chinese">
-				李金朋是驻纽约的自由记者,长期从事分析报道和特稿写作。他的作品见于<a href="https://theinitium.com/author/jinpengli/" target="_blank" rel="noopener noreferrer">端传媒</a>、<a href="https://search.caixin.com/newsearch/caixinsearch?keyword=%E6%9D%8E%E9%87%91%E6%9C%8B&x=11&y=11" target="_blank" rel="noopener noreferrer">财新网</a>、<a href="https://www.cbnweek.com/author_detail/794" target="_blank" rel="noopener noreferrer">《第一财经杂志》</a>等媒体,读者覆盖数百万。
+				李金朋是驻纽约的自由记者，长期从事分析报道和特稿写作。他的作品见于<a href="https://theinitium.com/author/jinpengli/" target="_blank" rel="noopener noreferrer">端传媒</a>、<a href="https://search.caixin.com/newsearch/caixinsearch?keyword=%E6%9D%8E%E9%87%91%E6%9C%8B&x=11&y=11" target="_blank" rel="noopener noreferrer">财新网</a>、<a href="https://www.cbnweek.com/author_detail/794" target="_blank" rel="noopener noreferrer">《第一财经杂志》</a>等媒体，读者覆盖数百万。
 			</p>
 			<p class="intro-text english">
 				Jinpeng Li is a New York City-based freelance journalist specializing in analytical and feature writing. His work has reached millions of readers across the Chinese-speaking world through major publications including <a href="https://theinitium.com/author/jinpengli/" target="_blank" rel="noopener noreferrer">Initium Media</a>, <a href="https://search.caixin.com/newsearch/caixinsearch?keyword=%E6%9D%8E%E9%87%91%E6%9C%8B&x=11&y=11" target="_blank" rel="noopener noreferrer">Caixin Media</a>, and <a href="https://www.cbnweek.com/author_detail/794" target="_blank" rel="noopener noreferrer">Yimagazine</a>.
@@ -23,28 +23,19 @@
 
 		<div class="bio-block">
 			<p class="intro-text chinese">
-				为了让代表性不足的亚裔群体发声，纠正中文世界对美国社会长期以来基于错误信息的误解，他致力于创作不受党派偏见影响、以人为本的报道。他主要报道美国政治、政策与国际事务。
+				为了让代表性不足的亚裔群体发声，纠正中文世界对美国社会长期以来基于错误信息的误解，他致力于创作不受党派偏见影响、以人为本的报道。他主要报道美国政治、科技与商业。
 			</p>
 			<p class="intro-text english">
-				He recognizes living in the US as a privilege. To amplify underrepresented Asian community voices and counter the misinformation that shapes Chinese-speaking audiences' understanding of American society, he writes human-drive narratives free from partisan bias. His work covers US politics, policy, and international affairs.
+				He recognizes living in the US as a privilege. To amplify underrepresented Asian community voices and counter the misinformation that shapes Chinese-speaking audiences' understanding of American society, he writes human-drive narratives free from partisan bias. His work covers US politics, tech, and business.
 			</p>
 		</div>
 
 		<div class="bio-block">
 			<p class="intro-text chinese">
-				他支持新闻自由，与多家独立媒体合作，目前是端传媒的特约撰稿人。他的特稿写作方法要求每篇报道至少采访三类立场不同的利益相关者——他的单篇报道平均采访八位消息来源。
+				他支持新闻自由，与多家独立媒体合作。他的特稿写作方法要求每篇报道至少采访三类立场不同的利益相关者——他的单篇报道平均采访八位消息来源。
 			</p>
 			<p class="intro-text english">
-				In support of press freedom, he collaborates with independent media outlets and is currently a contributing writer to Initium Media. His feature writing methodology requires interviewing at least three types of stakeholders with differing perspectives for each story—he has averaged eight sources per piece.
-			</p>
-		</div>
-
-		<div class="bio-block contact">
-			<p class="intro-text chinese">
-				工作邀约请联系: 高先生,微信:chicest14
-			</p>
-			<p class="intro-text english">
-				For collaboration inquiries, please contact: Mr. Gao, WeChat: chicest14
+				In support of press freedom, he collaborates with independent media outlets. His feature writing methodology requires interviewing at least three types of stakeholders with differing perspectives for each story—he has averaged eight sources per piece.
 			</p>
 		</div>
 	</div>
