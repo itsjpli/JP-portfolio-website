@@ -8,40 +8,38 @@
 	<section class="intro-section">
 		<div class="photo-container">
 			<img src="/images/JP.jpg" alt="Jinpeng Li" class="photo" />
-			<p class="photo-credit">Photo by Krystal Cheongeui Won</p>
+			<p class="photo-credit">Photo by <a href="https://krystalwon.work/index.html" target="_blank" rel="noopener noreferrer" class="photographer-link">Krystal Cheongeui Won</a></p>
 		</div>
 		<div class="intro-content">
 			<p>
-				When I arrived in the States in 2022, data journalism felt like the last glimmer of hope that traditional journalism was showing me. In an era of information overload and blind conformity, I realized that narratives built on databases and documents have real staying power and impact.
+				In an era of information overload and blind conformity, I realized that narratives built on databases and documents have real staying power and impact.
 			</p>
 			<p>
-				Since then, I've been building databases and using data analysis to uncover patterns and connections that support traditional reporting. I also translate complex realities into something comprehensible and accessible through data visualizations, maps, and tables—sometimes, these become the story itself.
+				Since then, I've been building databases and using data analysis to uncover patterns and connections that support traditional storytelling. I also translate complex realities into something comprehensible and accessible through data visualizations, maps, and tables—sometimes, these become the story itself.
 			</p>
-			<p>
-				 I worked in different types of newsrooms, collaborated with reporters across beats, and covered a variety of stories on local, national and foreign assignments. Previously, I was a data graphics fellow at <a href="https://www.businessinsider.com/author/jinpeng-li" target="_blank" rel="noopener noreferrer">Business Insider</a>, a data reporting fellow at <a href="https://www.washingtonpost.com/people/jinpeng-li/" target="_blank" rel="noopener noreferrer">The Washington Post</a> and <a href="https://investigativereportingworkshop.org/" target="_blank" rel="noopener noreferrer">Investigative Reporting Workshop</a>, and an election researcher at The Dallas Morning News.
-			</p>
-			<p>
-				I hold a master's degree in journalism and media from UT-Austin, where I was awarded the Dallas Morning News Fellowship for Journalism Innovation, the Norris G. Davis Fellowship, and a TPEG scholarship. I also trained at Investigative Reporters & Editors at the University of Missouri, supported by the Dow Jones News Fund. Before moving to the US, I worked as a business reporter in China.
-			</p>
-			<p>
-				Data can be biased, hypotheses can be wrong, methodologies can be limited, and graphics can be misleading. Every improvement in my work depends on feedback from editors and colleagues. I'm always eager to hear people's thoughts. I'm committed to creating a safe and welcoming space to discuss works, so please reach out!
-			</p>
-		</div>
-	</section>
+			
+			<div class="career-section">
+				<h3>Currently</h3>
+				<p>
+					I'm a Senior Data Visualization Editor at <a href="https://www.emarketer.com/" target="_blank" rel="noopener noreferrer">EMARKETER</a> in New York.
+				</p>
+			</div>
 
-	<!-- Contact Section -->
-	<section class="contact-section">
-		<div class="contact-content">
-			<div class="contact-details">
-				<div class="contact-item">
-					<strong>Email:</strong> forjpli at gmail dot com
-				</div>
-				<div class="contact-item">
-					<strong>Signal:</strong> itsjpli.14
-				</div>
-				<div class="contact-item">
-					<strong>📍:</strong> Jersey City, NJ
-				</div>
+			<div class="career-section">
+				<h3>Previously</h3>
+				<p>
+					I worked in different types of newsrooms, collaborated with reporters across beats, and covered a variety of stories on local, national and foreign assignments. I was a data graphics fellow at <a href="https://www.businessinsider.com/author/jinpeng-li" target="_blank" rel="noopener noreferrer">Business Insider</a>, a data reporting fellow at <a href="https://www.washingtonpost.com/people/jinpeng-li/" target="_blank" rel="noopener noreferrer">The Washington Post</a> and <a href="https://investigativereportingworkshop.org/" target="_blank" rel="noopener noreferrer">Investigative Reporting Workshop</a>, and an election researcher at The Dallas Morning News.
+				</p>
+				<p>
+					I hold a master's degree in journalism and media from UT Austin. I also trained at Investigative Reporters & Editors at the University of Missouri, supported by the Dow Jones News Fund. Before moving to the US, I worked as a business reporter in Shanghai.
+				</p>
+			</div>
+
+			<div class="career-section">
+				<h3>One More Thing</h3>
+				<p>
+					Data can be biased, hypotheses can be wrong, methodologies can be limited, and graphics can be misleading. Every improvement in my work depends on feedback from editors and colleagues. I'm always eager to hear people's thoughts. I'm committed to creating a safe and welcoming space to discuss works, so please reach out!
+				</p>
 			</div>
 		</div>
 	</section>
@@ -99,6 +97,17 @@
 		text-align: center;
 	}
 
+	.photographer-link {
+		color: #6b7280;
+		font-style: italic;
+		text-decoration: none;
+	}
+
+	.photographer-link:hover {
+		color: #374151;
+		text-decoration: underline;
+	}
+
 	.intro-content h1 {
 		font-size: 2.5rem;
 		font-weight: 700;
@@ -111,6 +120,29 @@
 		line-height: 1.8;
 		color: #374151;
 		margin-bottom: 1.5rem;
+	}
+
+	/* Career Sections */
+	.career-section {
+		margin-top: 2.5rem;
+		padding-left: 1.25rem;
+		border-left: 3px solid #ea580c;
+	}
+
+	.career-section h3 {
+		font-size: 1.3rem;
+		font-weight: 700;
+		color: #111827;
+		margin-bottom: 0.75rem;
+		letter-spacing: -0.01em;
+	}
+
+	.career-section p {
+		margin-bottom: 1rem;
+	}
+
+	.career-section p:last-child {
+		margin-bottom: 0;
 	}
 
 	/* Contact Section */
@@ -148,6 +180,8 @@
 	.contact-item strong {
 		color: #111827;
 		margin-right: 0.5rem;
+		font-family: Manrope;
+		font-weight: 600;
 	}
 
 	/* Impact Section */
