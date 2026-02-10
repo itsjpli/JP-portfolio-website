@@ -1,34 +1,5 @@
 <script>
 	import { page } from '$app/state';
-	import { onMount } from 'svelte';
-
-	let { onDropdownChange = () => {} } = $props();
-
-	let dropdownOpen = $state(false);
-	let navWrapper;
-
-	function toggleDropdown() {
-		dropdownOpen = !dropdownOpen;
-		onDropdownChange(dropdownOpen);
-	}
-
-	function closeDropdown() {
-		dropdownOpen = false;
-		onDropdownChange(false);
-	}
-
-	function handleClickOutside(event) {
-		if (navWrapper && !navWrapper.contains(event.target) && dropdownOpen) {
-			closeDropdown();
-		}
-	}
-
-	onMount(() => {
-		document.addEventListener('click', handleClickOutside);
-		return () => {
-			document.removeEventListener('click', handleClickOutside);
-		};
-	});
 </script>
 
 <div class="header-container">
@@ -40,21 +11,9 @@
 		</div>
 
 		<nav class="center">
-			<div class="nav-item-wrapper" bind:this={navWrapper}>
-				<button class="nav-link work-dropdown" onclick={toggleDropdown}>
-					Work
-					<svg class="chevron" class:rotated={dropdownOpen} width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-						<path d="M3 4.5L6 7.5L9 4.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-					</svg>
-				</button>
-				{#if dropdownOpen}
-					<div class="dropdown-menu">
-						<a href="/" class="dropdown-link" onclick={closeDropdown}>Data Journalism</a>
-						<a href="/feature-writing" class="dropdown-link" onclick={closeDropdown}>Feature Writing</a>
-					</div>
-				{/if}
-			</div>
-			<a href="/about" class="nav-link">About</a>
+			<a href="/" class="nav-link" class:active={page.url.pathname === '/'}>Data</a>
+			<a href="/feature-writing" class="nav-link" class:active={page.url.pathname === '/feature-writing'}>Feature</a>
+			<a href="/about" class="nav-link" class:active={page.url.pathname === '/about'}>About</a>
 		</nav>
 
 		<div class="right">
@@ -95,7 +54,7 @@
 
 	.center {
 		justify-content: center;
-		gap: 2.5rem;
+		gap: 2rem;
 	}
 
 	.right {
@@ -118,89 +77,27 @@
 		opacity: 0.7;
 	}
 
-	.nav-item-wrapper {
-		position: relative;
-	}
-
 	.nav-link {
-		font-size: 1rem;
+		font-size: 0.95rem;
 		font-family: var(--font-heading);
-		color: #333;
+		font-weight: 500;
+		color: #9ca3af;
 		text-decoration: none;
-		transition: all 0.2s ease;
-		position: relative;
-		background: none;
-		border: none;
-		cursor: pointer;
-		padding: 0;
+		padding-bottom: 2px;
+		border-bottom: 1.5px solid transparent;
+		transition: color 0.2s ease, border-color 0.2s ease;
+		white-space: nowrap;
 	}
 
 	.nav-link:hover {
-		color: #000;
-	}
-
-	.nav-link::after {
-		content: '';
-		position: absolute;
-		bottom: -4px;
-		left: 0;
-		width: 0;
-		height: 2px;
-		background-color: #333;
-		transition: width 0.2s ease;
-	}
-
-	.nav-link:hover::after {
-		width: 100%;
-	}
-
-	.work-dropdown {
-		display: flex;
-		align-items: center;
-		gap: 0.3rem;
-	}
-
-	.chevron {
-		transition: transform 0.3s ease;
-		display: inline-flex;
-		margin-left: 0.25rem;
-	}
-
-	.chevron.rotated {
-		transform: rotate(180deg);
-	}
-
-	.dropdown-menu {
-		position: absolute;
-		left: 50%;
-		transform: translateX(-50%);
-		top: calc(100% + 12px);
-		width: auto;
-		min-width: 180px;
-		background-color: #F9F4ED;
-		border-radius: 8px;
-		box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
-		padding: 0.5rem;
-		display: flex;
-		flex-direction: column;
-		gap: 0;
-		z-index: 1000;
-	}
-
-	.dropdown-link {
-		padding: 0.5rem 1rem;
-		font-size: 0.9rem;
-		font-family: var(--font-heading);
-		color: #333;
-		text-decoration: none;
-		transition: all 0.2s ease;
-		border-radius: 8px;
-		font-weight: 500;
-	}
-
-	.dropdown-link:hover {
-		background-color: #EDE8DC;
 		color: #111827;
+		border-bottom-color: #111827;
+	}
+
+	.nav-link.active {
+		color: #111827;
+		border-bottom-color: #111827;
+		font-weight: 600;
 	}
 
 	.newsletter-btn {

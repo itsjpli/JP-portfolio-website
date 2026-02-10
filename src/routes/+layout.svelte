@@ -17,7 +17,7 @@
 		<div class="footer-divider"></div>
 		<div class="footer-content">
 			<div class="footer-left">
-				<p>© 2025 Jinpeng Li</p>
+				<p>© 2026 Jinpeng Li</p>
 			</div>
 			<div class="footer-right">
 				<a href="mailto:forjpli@gmail.com" class="social-icon" aria-label="Email">

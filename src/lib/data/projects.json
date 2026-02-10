@@ -61,7 +61,7 @@
     "category": "Investigation",
     "type": "Interactives",
     "date": "June 2025",
-    "description": "This project was a year-long investigation with around 40 reporters and editors examining the explosive growth of the data center industry. Our reporting found 1,240 data centers in the US either already built or approved for construction by the end of 2024.\n\nI contributed all static graphics for this series and conducted analysis to create a repeatable-use public health costs map using Mapbox GL. After publishing, I worked with my editor to produce an interactive tool to help readers look up these 1,240 data centers.",
+    "description": "This project was a year-long investigation with around 20 reporters and editors examining the explosive growth of the data center industry. Our reporting found 1,240 data centers in the US either already built or approved for construction by the end of 2024.\n\nI contributed all static graphics for this series and conducted analysis to create a repeatable-use public health costs map using Mapbox GL. After publishing, I worked with my editor to produce an interactive tool to help readers look up these 1,240 data centers.",
     "thumbnail": "/images/datacenter.gif",
     "url": "https://www.businessinsider.com/ai-data-center-development-true-cost-environmental-impact-2025-6"
   },

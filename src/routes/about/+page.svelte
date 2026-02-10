@@ -1,3 +1,20 @@
+<script>
+	const newsItems = [
+		{
+			date: '2024.08',
+			publication: 'Forbes',
+			description: 'Dedicated half the piece to citing my research, describing it as one of "the best and most insightful pieces of research" and "a superb analysis of the Olympic medals tables"',
+			url: 'https://www.forbes.com/sites/stevendesmyter/2024/08/19/post-olympics-analysis-a-reader/'
+		},
+		{
+			date: '2024.08',
+			publication: 'Cosmopolitan',
+			description: 'Referenced my tracking of Team USA\'s dominance of the Olympic medal table',
+			url: 'https://www.cosmopolitan.com/entertainment/tv/a61852264/who-won-the-olympics/'
+		}
+	];
+</script>
+
 <svelte:head>
 	<title>About</title>
 	<meta name="description" content="About Jinpeng Li" />
@@ -31,7 +48,7 @@
 					I worked in different types of newsrooms, collaborated with reporters across beats, and covered a variety of stories on local, national and foreign assignments. I was a data graphics fellow at <a href="https://www.businessinsider.com/author/jinpeng-li" target="_blank" rel="noopener noreferrer">Business Insider</a>, a data reporting fellow at <a href="https://www.washingtonpost.com/people/jinpeng-li/" target="_blank" rel="noopener noreferrer">The Washington Post</a> and <a href="https://investigativereportingworkshop.org/" target="_blank" rel="noopener noreferrer">Investigative Reporting Workshop</a>, and an election researcher at The Dallas Morning News.
 				</p>
 				<p>
-					I hold a master's degree in journalism and media from UT Austin. I also trained at Investigative Reporters & Editors at the University of Missouri, supported by the Dow Jones News Fund. Before moving to the US, I worked as a business reporter in Shanghai.
+					I hold a master's degree in journalism and media from UT Austin. I also trained at Investigative Reporters & Editors at the University of Missouri, supported by the Dow Jones News Fund. 
 				</p>
 			</div>
 
@@ -47,18 +64,24 @@
 	<!-- In the News Section -->
 	<section class="impact-section">
 		<h2>In the News</h2>
-		<div class="impact-content">
-			<div class="news-item">
-				<p>
-					<span class="date">2024.08</span>  <a href="https://www.forbes.com/sites/stevendesmyter/2024/08/19/post-olympics-analysis-a-reader/" target="_blank" rel="noopener noreferrer">Forbes</a> dedicated half the piece to citing my research, describing it as one of "the best and most insightful pieces of research" and "a superb analysis of the Olympic medals tables"
-				</p>
-			</div>
-			<div class="news-item">
-				<p>
-					<span class="date">2024.08</span>  <a href="https://www.cosmopolitan.com/entertainment/tv/a61852264/who-won-the-olympics/" target="_blank" rel="noopener noreferrer">Cosmopolitan</a> references my tracking of Team USA's dominance of the Olympic medal table.
-				</p>
-			</div>
-		</div>
+		<table class="news-table">
+			<thead>
+				<tr>
+					<th class="col-date">Time</th>
+					<th class="col-publication">Publication</th>
+					<th class="col-description">How they used my work</th>
+				</tr>
+			</thead>
+			<tbody>
+				{#each newsItems as item}
+					<tr class="news-row" on:click={() => window.open(item.url, '_blank', 'noopener,noreferrer')} role="link" tabindex="0" on:keydown={(e) => e.key === 'Enter' && window.open(item.url, '_blank', 'noopener,noreferrer')}>
+						<td class="col-date">{item.date}</td>
+						<td class="col-publication">{item.publication}</td>
+						<td class="col-description">{item.description}</td>
+					</tr>
+				{/each}
+			</tbody>
+		</table>
 	</section>
 </div>
 
@@ -186,51 +209,131 @@
 
 	/* Impact Section */
 	.impact-section {
-		background: #F9F4ED;
-		border-radius: 12px;
-		padding: 2.5rem;
+		background: transparent;
+		padding: 1.5rem 0 0 0;
+		margin-top: 1rem;
 	}
 
 	.impact-section h2 {
 		font-size: 2rem;
 		font-weight: 700;
+		color: #111827;
+		letter-spacing: -0.01em;
 		margin-bottom: 1.5rem;
+	}
+
+	.news-table {
+		width: 100%;
+		border-collapse: collapse;
+		font-size: 1rem;
+	}
+
+	.news-table thead tr th {
+		padding: 0 1.5rem 0.875rem 0;
+		text-align: left;
+		font-size: 0.75rem;
+		font-family: 'Manrope', var(--font-heading);
+		font-weight: 600;
+		color: #d1d5db;
+		border-bottom: 1px solid #e5e7eb;
+	}
+
+	.news-row {
+		cursor: pointer;
+		transition: all 0.2s ease;
+		border-bottom: 1px solid #f3f4f6;
+	}
+
+	.news-row:hover {
+		background: transparent;
+	}
+
+	.news-row:hover .col-publication {
+		font-weight: 700;
+	}
+
+	.news-row:hover .col-date {
+		color: #F85C03;
+	}
+
+	.news-row:hover .col-description {
 		color: #111827;
 	}
 
-	.impact-content {
-		display: flex;
-		flex-direction: column;
-		gap: 1rem;
+	.news-row td {
+		padding: 1.5rem 1.5rem 1.5rem 0;
+		line-height: 1.7;
+		vertical-align: top;
 	}
 
-	.news-item p {
-		font-size: 1.1rem;
-		color: #374151;
-		line-height: 1.8;
-		margin-bottom: 0;
+	.col-date {
+		white-space: nowrap;
+		width: 110px;
+		color: #9ca3af;
+		font-size: 0.95rem;
+		font-family: 'Manrope', var(--font-heading);
+		font-weight: 500;
+		transition: color 0.2s ease;
 	}
 
-	.news-item .date {
-		color: #374151;
-		font-weight: 600;
+	.col-publication {
+		width: 180px;
+		font-weight: 400;
+		color: #111827;
+		font-size: 1.05rem;
+		transition: font-weight 0.1s ease;
 	}
 
-	.news-item a {
-		color: #ea580c;
-		text-decoration: none;
-		font-weight: 600;
-	}
-
-	.news-item a:hover {
-		color: #c2410c;
-		text-decoration: underline;
+	.col-description {
+		color: #6b7280;
+		font-size: 1rem;
+		transition: color 0.2s ease;
 	}
 
 	/* Responsive */
 	@media (max-width: 768px) {
 		.about-container {
 			padding: 1rem;
+		}
+
+		.impact-section h2 {
+			font-size: 1.5rem;
+		}
+
+		.news-table thead {
+			display: none;
+		}
+
+		.news-table,
+		.news-table tbody,
+		.news-row,
+		.news-row td {
+			display: block;
+			width: 100%;
+		}
+
+		.news-row {
+			padding: 1rem 0;
+			border-bottom: 1px solid #f3f4f6;
+		}
+
+		.news-row td {
+			padding: 0;
+			border: none;
+		}
+
+		.col-date {
+			font-size: 0.8rem;
+			margin-bottom: 0.2rem;
+		}
+
+		.col-publication {
+			font-size: 1rem;
+			margin-bottom: 0.4rem;
+		}
+
+		.col-description {
+			font-size: 0.9rem;
 		}
 
 		.intro-section {

@@ -370,11 +370,10 @@
 	.main-layout {
 		display: grid;
 		grid-template-columns: 45% 55%;
-		flex: 1;
-		overflow: hidden;
+		align-items: start;
 		position: relative;
 		width: 100%;
-		padding: 0 2rem;
+		padding: 0 2rem 2rem 2rem;
 		box-sizing: border-box;
 		gap: 2rem;
 	}
@@ -384,11 +383,9 @@
 		border-right: none;
 		background: #F9F4ED;
 		position: relative;
-		height: 100%;
 		display: flex;
 		flex-direction: column;
-		overflow-y: auto;
-		overflow-x: hidden;
+		overflow: visible;
 		border-radius: 12px;
 		padding: 0;
 		gap: 0;
@@ -412,6 +409,26 @@
 		border-radius: 12px;
 		overflow: hidden;
 		margin-bottom: 0;
+	}
+
+	.project-section::after {
+		content: '↓ scroll';
+		position: absolute;
+		bottom: 0;
+		right: 0;
+		left: 60px;
+		height: 56px;
+		background: linear-gradient(to bottom, transparent, rgba(255,255,255,0.95) 60%);
+		display: flex;
+		align-items: flex-end;
+		justify-content: center;
+		padding-bottom: 8px;
+		font-size: 0.7rem;
+		font-family: var(--font-heading);
+		color: #9ca3af;
+		letter-spacing: 0.08em;
+		pointer-events: none;
+		z-index: 10;
 	}
 
 	.project-section:last-child {
@@ -466,6 +483,23 @@
 	.project-list {
 		background: #ffffff;
 		padding: 0;
+		max-height: 360px;
+		overflow-y: auto;
+		scrollbar-width: thin;
+		scrollbar-color: #E5DCC8 transparent;
+	}
+
+	.project-list::-webkit-scrollbar {
+		width: 6px;
+	}
+
+	.project-list::-webkit-scrollbar-track {
+		background: transparent;
+	}
+
+	.project-list::-webkit-scrollbar-thumb {
+		background-color: #E5DCC8;
+		border-radius: 3px;
 	}
 
 	.project-item {
@@ -526,10 +560,14 @@
 
 	/* Project Detail */
 	.project-detail {
+		position: sticky;
+		top: 2rem;
+		max-height: calc(100vh - 4rem);
 		overflow-y: auto;
 		padding: 3rem;
 		background: #ffffff;
 		transition: opacity 0.2s ease;
+		border-radius: 12px;
 	}
 
 	.detail-header {
@@ -590,7 +628,7 @@
 		overflow: hidden;
 		box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
 		width: 100%;
-		aspect-ratio: 3 / 2;
+		aspect-ratio: 16 / 9;
 	}
 
 	.detail-visualization img {
@@ -766,8 +804,21 @@
 		.project-list-container {
 			border-right: none;
 			border-bottom: 1px solid #e5e7eb;
-			max-height: 45vh;
 			border-radius: 8px;
+		}
+
+		.project-list {
+			max-height: 220px;
+		}
+
+		.project-section::after {
+			left: 0;
+		}
+
+		.project-detail {
+			position: static;
+			max-height: none;
+			overflow-y: visible;
 		}
 
 		.sections-container {
