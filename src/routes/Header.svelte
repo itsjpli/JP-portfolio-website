@@ -80,24 +80,31 @@
 	.nav-link {
 		font-size: 0.95rem;
 		font-family: var(--font-heading);
-		font-weight: 500;
-		color: #9ca3af;
+		color: #333;
 		text-decoration: none;
 		padding-bottom: 2px;
-		border-bottom: 1.5px solid transparent;
-		transition: color 0.2s ease, border-color 0.2s ease;
+		position: relative;
+		transition: color 0.2s ease;
 		white-space: nowrap;
 	}
 
-	.nav-link:hover {
-		color: #111827;
-		border-bottom-color: #111827;
+	.nav-link::after {
+		content: '';
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		width: 0;
+		height: 1.5px;
+		background-color: #333;
+		transition: width 0.3s ease;
 	}
 
-	.nav-link.active {
-		color: #111827;
-		border-bottom-color: #111827;
-		font-weight: 600;
+	.nav-link:hover::after {
+		width: 100%;
+	}
+
+	.nav-link.active::after {
+		width: 100%;
 	}
 
 	.newsletter-btn {

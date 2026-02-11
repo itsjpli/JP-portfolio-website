@@ -203,7 +203,7 @@
 	.contact-item strong {
 		color: #111827;
 		margin-right: 0.5rem;
-		font-family: Manrope;
+		font-family: var(--font-heading);
 		font-weight: 600;
 	}
 
@@ -232,7 +232,7 @@
 		padding: 0 1.5rem 0.875rem 0;
 		text-align: left;
 		font-size: 0.75rem;
-		font-family: 'Manrope', var(--font-heading);
+		font-family: var(--font-heading);
 		font-weight: 600;
 		color: #d1d5db;
 		border-bottom: 1px solid #e5e7eb;
@@ -249,7 +249,7 @@
 	}
 
 	.news-row:hover .col-publication {
-		font-weight: 700;
+		color: #F85C03;
 	}
 
 	.news-row:hover .col-date {
@@ -271,7 +271,7 @@
 		width: 110px;
 		color: #9ca3af;
 		font-size: 0.95rem;
-		font-family: 'Manrope', var(--font-heading);
+		font-family: var(--font-heading);
 		font-weight: 500;
 		transition: color 0.2s ease;
 	}

@@ -251,7 +251,7 @@
 		background: #F85C03;
 		color: #ffffff;
 		font-size: 0.875rem;
-		font-family: 'Manrope', var(--font-heading);
+		font-family: var(--font-heading);
 		font-weight: 700;
 		text-transform: uppercase;
 		letter-spacing: 0.1em;
@@ -261,7 +261,7 @@
 
 	.featured-category {
 		font-size: 0.875rem;
-		font-family: 'Manrope', var(--font-heading);
+		font-family: var(--font-heading);
 		font-weight: 600;
 		color: #6b7280;
 		text-transform: uppercase;
@@ -276,14 +276,14 @@
 
 	.featured-publication {
 		font-size: 0.95rem;
-		font-family: 'Manrope', var(--font-heading);
+		font-family: var(--font-heading);
 		color: #6b7280;
 		font-weight: 500;
 	}
 
 	.featured-date {
 		font-size: 0.875rem;
-		font-family: 'Manrope', var(--font-heading);
+		font-family: var(--font-heading);
 		color: #9ca3af;
 	}
 
