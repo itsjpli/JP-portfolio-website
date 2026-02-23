@@ -13,7 +13,8 @@
 			url: 'https://www.cosmopolitan.com/entertainment/tv/a61852264/who-won-the-olympics/'
 		}
 	];
-</script>
+
+	</script>
 
 <svelte:head>
 	<title>About</title>
@@ -83,6 +84,12 @@
 			</tbody>
 		</table>
 	</section>
+
+	<!-- Awards Section -->
+	<section class="awards-section">
+		<h2>Awards</h2>
+		<p class="award-item">Part of a team at Business Insider that won the <a href="https://www.businessinsider.com/business-insider-wins-first-george-polk-award-2026-2" target="_blank" rel="noopener noreferrer"><strong>George Polk Awards</strong></a> in Environmental Reporting for coverage of <em>The True Cost of Data Centers</em>, 2026.</p>
+	</section>
 </div>
 
 <style>
@@ -97,7 +104,7 @@
 		display: grid;
 		grid-template-columns: 300px 1fr;
 		gap: 3rem;
-		margin-bottom: 4rem;
+		margin-bottom: 2rem;
 		align-items: start;
 	}
 
@@ -210,8 +217,8 @@
 	/* Impact Section */
 	.impact-section {
 		background: transparent;
-		padding: 1.5rem 0 0 0;
-		margin-top: 1rem;
+		padding: 1rem 0 0 0;
+		margin-top: 0.5rem;
 	}
 
 	.impact-section h2 {
@@ -219,7 +226,7 @@
 		font-weight: 700;
 		color: #111827;
 		letter-spacing: -0.01em;
-		margin-bottom: 1.5rem;
+		margin-bottom: 1rem;
 	}
 
 	.news-table {
@@ -261,7 +268,7 @@
 	}
 
 	.news-row td {
-		padding: 1.5rem 1.5rem 1.5rem 0;
+		padding: 1rem 1rem 1rem 0;
 		line-height: 1.7;
 		vertical-align: top;
 	}
@@ -279,9 +286,9 @@
 	.col-publication {
 		width: 180px;
 		font-weight: 400;
-		color: #111827;
+		color: #6b7280;
 		font-size: 1.05rem;
-		transition: font-weight 0.1s ease;
+		transition: color 0.2s ease;
 	}
 
 	.col-description {
@@ -290,14 +297,58 @@
 		transition: color 0.2s ease;
 	}
 
+	/* Awards Section */
+	.awards-section {
+		padding: 1rem 0 0 0;
+		margin-top: 0.5rem;
+	}
+
+	.awards-section h2 {
+		font-size: 2rem;
+		font-weight: 700;
+		color: #111827;
+		letter-spacing: -0.01em;
+		margin-bottom: 0.75rem;
+	}
+
+	.award-item {
+		font-size: 1rem;
+		line-height: 1.7;
+		color: #374151;
+		margin: 0;
+	}
+
+	.award-item a {
+		color: inherit;
+		text-decoration: none;
+		transition: color 0.2s ease;
+	}
+
+	.award-item a:hover {
+		color: #F85C03;
+	}
+
 	/* Responsive */
 	@media (max-width: 768px) {
 		.about-container {
 			padding: 1rem;
 		}
 
-		.impact-section h2 {
+		.impact-section h2,
+		.awards-section h2 {
 			font-size: 1.5rem;
+			margin-bottom: 0.5rem;
+		}
+
+		.impact-section,
+		.awards-section {
+			padding: 0;
+			margin-top: 1rem;
+		}
+
+		.award-item {
+			font-size: 0.95rem;
+			line-height: 1.6;
 		}
 
 		.news-table thead {
@@ -338,9 +389,10 @@
 
 		.intro-section {
 			grid-template-columns: 1fr;
-			gap: 2rem;
-			margin-bottom: 2rem;
+			gap: 1.5rem;
+			margin-bottom: 1rem;
 		}
+
 
 		.photo {
 			width: 100%;
@@ -361,14 +413,12 @@
 			margin-bottom: 1.25rem;
 		}
 
-		.contact-section,
-		.impact-section {
+		.contact-section {
 			padding: 1.5rem;
 			margin-bottom: 1.5rem;
 		}
 
-		.contact-section h2,
-		.impact-section h2 {
+		.contact-section h2 {
 			font-size: 1.5rem;
 			margin-bottom: 1rem;
 		}
