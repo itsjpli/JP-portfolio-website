@@ -8,9 +8,8 @@
 
 <div class="container">
 	<div class="hero">
-		<p class="hero-label-small">I play around with datasets,</p>
-		<p class="hero-label">but sometimes I'm on the road</p>
-		<p class="tagline">I write human-driven narratives free from partisan bias, covering US politics, tech, and business.</p>
+		<p class="hero-label-small">I write human-driven narratives,</p>
+		<p class="hero-label">covering US politics, tech, and business</p>
 	</div>
 
 	<div class="stories-grid">
