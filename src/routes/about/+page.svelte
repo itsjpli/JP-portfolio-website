@@ -39,7 +39,7 @@
 			<div class="career-section">
 				<h3>Currently</h3>
 				<p>
-					I'm a Senior Data Visualization Editor at <a href="https://www.emarketer.com/" target="_blank" rel="noopener noreferrer">EMARKETER</a> in New York.
+					I'm the Content Director at 81st Media in New York. I'm also exploring social media journalism and founded <a href="https://xhslink.cn/m/2mIsSqUtxNN" target="_blank" rel="noopener noreferrer">CRACK (凿壁而入)</a>. And I moonlight as a new media content strategist for PE/VC clients.
 				</p>
 			</div>
 
@@ -88,7 +88,14 @@
 	<!-- Awards Section -->
 	<section class="awards-section">
 		<h2>Awards</h2>
-		<p class="award-item">Part of a team at Business Insider that won the <a href="https://www.businessinsider.com/business-insider-wins-first-george-polk-award-2026-2" target="_blank" rel="noopener noreferrer"><strong>George Polk Awards</strong></a> in Environmental Reporting for coverage of <em>The True Cost of Data Centers</em>, 2026.</p>
+		<p class="award-intro">Part of a team at Business Insider for coverage of <em>The True Cost of Data Centers</em>, 2026:</p>
+		<ul class="award-list">
+			<li><a href="https://www.businessinsider.com/business-insider-wins-first-george-polk-award-2026-2" target="_blank" rel="noopener noreferrer"><strong>George Polk Awards</strong></a> in Environmental Reporting (Winner)</li>
+			<li><strong>Gerald Loeb Awards</strong> in Investigative (Finalist)</li>
+			<li><strong>Online Journalism Awards</strong> in The University of Florida Award in Investigative Data Journalism (Finalist)</li>
+			<li><strong>SABEW Awards</strong> in Data Journalism (Honorable Mention)</li>
+			<li><strong>Deadline Club Awards</strong> in Business Investigative Reporting (Finalist)</li>
+		</ul>
 	</section>
 </div>
 
@@ -311,20 +318,43 @@
 		margin-bottom: 0.75rem;
 	}
 
-	.award-item {
+	.award-intro {
 		font-size: 1rem;
 		line-height: 1.7;
 		color: #6b7280;
+		margin-bottom: 0.75rem;
+	}
+
+	.award-list {
+		list-style: none;
+		padding: 0;
 		margin: 0;
 	}
 
-	.award-item a {
+	.award-list li {
+		font-size: 1rem;
+		line-height: 1.7;
+		color: #6b7280;
+		margin-bottom: 0.5rem;
+		padding-left: 1.25rem;
+		position: relative;
+	}
+
+	.award-list li::before {
+		content: "•";
+		position: absolute;
+		left: 0;
+		color: #ea580c;
+		font-weight: bold;
+	}
+
+	.award-list li a {
 		color: inherit;
 		text-decoration: none;
 		transition: color 0.2s ease;
 	}
 
-	.award-item a:hover {
+	.award-list li a:hover {
 		color: #F85C03;
 	}
 
@@ -346,7 +376,12 @@
 			margin-top: 1rem;
 		}
 
-		.award-item {
+		.award-intro {
+			font-size: 0.95rem;
+			line-height: 1.6;
+		}
+
+		.award-list li {
 			font-size: 0.95rem;
 			line-height: 1.6;
 		}
