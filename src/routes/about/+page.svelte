@@ -49,7 +49,10 @@
 					I worked in different types of newsrooms, collaborated with reporters across beats, and covered a variety of stories on local, national and foreign assignments. I was a data graphics fellow at <a href="https://www.businessinsider.com/author/jinpeng-li" target="_blank" rel="noopener noreferrer">Business Insider</a>, a data reporting fellow at <a href="https://www.washingtonpost.com/people/jinpeng-li/" target="_blank" rel="noopener noreferrer">The Washington Post</a> and <a href="https://investigativereportingworkshop.org/" target="_blank" rel="noopener noreferrer">Investigative Reporting Workshop</a>, and an election researcher at The Dallas Morning News.
 				</p>
 				<p>
-					I hold a master's degree in journalism and media from UT Austin. I also trained at Investigative Reporters & Editors at the University of Missouri, supported by the Dow Jones News Fund. 
+					I initially trained as a business reporter in Shanghai, at Caixin Media and Yicai.
+				</p>
+				<p>
+					I hold a master's degree in journalism and media from UT Austin. I also trained at Investigative Reporters & Editors at the University of Missouri, supported by the Dow Jones News Fund.
 				</p>
 			</div>
 
