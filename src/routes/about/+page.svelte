@@ -39,7 +39,7 @@
 			<div class="career-section">
 				<h3>Currently</h3>
 				<p>
-					I'm the Content Director at 81st Media in New York. I'm also founded <a href="https://xhslink.cn/m/2mIsSqUtxNN" target="_blank" rel="noopener noreferrer">CRACK (凿壁而入)</a>. And I moonlight as a content strategist for VC clients.
+					I'm the Content Director at 81st Media in New York. I'm also a Contributing Writer at <a href="https://theinitium.com/author/jinpengli-zh-hans/" target="_blank" rel="noopener noreferrer">Initium Media</a>, covering AI and tech. I founded <a href="https://xhslink.cn/m/2mIsSqUtxNN" target="_blank" rel="noopener noreferrer">CRACK (凿壁而入)</a>.
 				</p>
 			</div>
 
