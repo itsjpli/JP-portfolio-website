@@ -30,36 +30,34 @@
 		</div>
 		<div class="intro-content">
 			<p>
-				In an era of information overload and blind conformity, I realized that narratives built on databases and documents have real staying power and impact.
+				Jinpeng "JP" Li is a creator journalist based in New York. He reports on technology through the people and the money behind it, tracing the lives it changes, the capital that powers it and the politics it collides with. He writes for established newsrooms and runs his own channel, and he treats both as parts of the same practice.
 			</p>
 			<p>
-				Since then, I've been building databases and using data analysis to uncover patterns and connections that support traditional storytelling. I also translate complex realities into something comprehensible and accessible through data visualizations, maps, and tables—sometimes, these become the story itself.
+				More and more people now get their news from short video. Li believes journalism has to follow that attention, and he sees each new medium as a chance to test a new way of reporting. Like a growing number of reporters who have built their own newsletters, podcasts and video channels, he treats the relationship with his audience as part of the work itself.
 			</p>
-			
+			<p>
+				That belief led him to start <a href="https://xhslink.cn/m/2mIsSqUtxNN" target="_blank" rel="noopener noreferrer">CRACK (凿壁而入)</a>, a Chinese-language video channel on Silicon Valley and Wall Street. Its name evokes chiseling through a wall, and the channel tries to do the same to the news. Each video starts from a story people are already talking about, then digs into the details and nuance the headlines leave out, building the explanation around his own observations.
+			</p>
+
 			<div class="career-section">
 				<h3>Currently</h3>
-				<p>
-					I'm the Content Director at 81st Media in New York. I'm also a Contributing Writer at <a href="https://theinitium.com/author/jinpengli-zh-hans/" target="_blank" rel="noopener noreferrer">Initium Media</a>, covering AI and tech. I founded <a href="https://xhslink.cn/m/2mIsSqUtxNN" target="_blank" rel="noopener noreferrer">CRACK (凿壁而入)</a>.
-				</p>
+				<ul class="career-list">
+					<li>Contributing Writer at <a href="https://theinitium.com/author/jinpengli-zh-hans/" target="_blank" rel="noopener noreferrer">Initium Media</a>, writing long-form reporting on technology, politics and the people they affect</li>
+					<li>Founder of <a href="https://xhslink.cn/m/2mIsSqUtxNN" target="_blank" rel="noopener noreferrer">CRACK (凿壁而入)</a>, a social-first explainer video channel</li>
+					<li>Content consultant for independent media outlets, including 81st Media and The Valley 101</li>
+				</ul>
 			</div>
 
 			<div class="career-section">
 				<h3>Previously</h3>
 				<p>
-					I worked in different types of newsrooms, collaborated with reporters across beats, and covered a variety of stories on local, national and foreign assignments. I was a data graphics fellow at <a href="https://www.businessinsider.com/author/jinpeng-li" target="_blank" rel="noopener noreferrer">Business Insider</a>, a data reporting fellow at <a href="https://www.washingtonpost.com/people/jinpeng-li/" target="_blank" rel="noopener noreferrer">The Washington Post</a> and <a href="https://investigativereportingworkshop.org/" target="_blank" rel="noopener noreferrer">Investigative Reporting Workshop</a>, and an election researcher at The Dallas Morning News.
+					Li has worked in many kinds of newsrooms, collaborating with reporters across beats on local, national and foreign assignments. As a data journalist, he built databases and analyses that uncovered the patterns behind the news, working as a data graphics fellow at <a href="https://www.businessinsider.com/author/jinpeng-li" target="_blank" rel="noopener noreferrer">Business Insider</a>, a data reporting fellow at <a href="https://www.washingtonpost.com/people/jinpeng-li/" target="_blank" rel="noopener noreferrer">The Washington Post</a> and the <a href="https://investigativereportingworkshop.org/" target="_blank" rel="noopener noreferrer">Investigative Reporting Workshop</a>, and an election researcher at The Dallas Morning News. He started his career as a business reporter in Shanghai, at Caixin Media and Yicai.
 				</p>
 				<p>
-					I initially trained as a business reporter in Shanghai, at Caixin Media and Yicai.
+					Li came to data journalism in search of narratives that last and hold up, the kind built on databases and documents. AI has since accelerated that craft, putting evidence-based storytelling within reach of more newsrooms than ever. That led Li to the next question. A story can be lasting and right and still go unheard. What he looks for now is a narrative people choose to trust, one carried by a voice they know and a relationship they can return to.
 				</p>
 				<p>
-					I hold a master's degree in journalism and media from UT Austin. I also trained at Investigative Reporters & Editors at the University of Missouri, supported by the Dow Jones News Fund.
-				</p>
-			</div>
-
-			<div class="career-section">
-				<h3>One More Thing</h3>
-				<p>
-					Data can be biased, hypotheses can be wrong, methodologies can be limited, and graphics can be misleading. Every improvement in my work depends on feedback from editors and colleagues. I'm always eager to hear people's thoughts. I'm committed to creating a safe and welcoming space to discuss works, so please reach out!
+					Li holds a master's degree in journalism and media from the University of Texas at Austin. He also trained at Investigative Reporters & Editors, with support from the Dow Jones News Fund. He has served as a judge for several major journalism competitions.
 				</p>
 			</div>
 		</div>
@@ -182,6 +180,34 @@
 	}
 
 	.career-section p:last-child {
+		margin-bottom: 0;
+	}
+
+	.career-list {
+		list-style: none;
+		padding: 0;
+		margin: 0;
+	}
+
+	.career-list li {
+		font-size: 1.1rem;
+		line-height: 1.8;
+		color: #374151;
+		margin-bottom: 0.75rem;
+		padding-left: 1.5rem;
+		position: relative;
+	}
+
+	.career-list li::before {
+		content: "•";
+		position: absolute;
+		left: 0;
+		color: #ea580c;
+		font-weight: bold;
+		font-size: 1.2rem;
+	}
+
+	.career-list li:last-child {
 		margin-bottom: 0;
 	}
 
