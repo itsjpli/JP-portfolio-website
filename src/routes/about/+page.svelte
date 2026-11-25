@@ -51,10 +51,10 @@
 			<div class="career-section">
 				<h3>Previously</h3>
 				<p>
-					Li has worked in many kinds of newsrooms, collaborating with reporters across beats on local, national and foreign assignments. As a data journalist, he built databases and analyses that uncovered the patterns behind the news, working as a data graphics fellow at <a href="https://www.businessinsider.com/author/jinpeng-li" target="_blank" rel="noopener noreferrer">Business Insider</a>, a data reporting fellow at <a href="https://www.washingtonpost.com/people/jinpeng-li/" target="_blank" rel="noopener noreferrer">The Washington Post</a> and the <a href="https://investigativereportingworkshop.org/" target="_blank" rel="noopener noreferrer">Investigative Reporting Workshop</a>, and an election researcher at The Dallas Morning News. He started his career as a business reporter in Shanghai, at Caixin Media and Yicai.
+					Li has worked across newsrooms and beats, on local, national and foreign assignments. As a data journalist, he was a data graphics fellow at <a href="https://www.businessinsider.com/author/jinpeng-li" target="_blank" rel="noopener noreferrer">Business Insider</a> and a data reporting fellow at <a href="https://www.washingtonpost.com/people/jinpeng-li/" target="_blank" rel="noopener noreferrer">The Washington Post</a> and the <a href="https://investigativereportingworkshop.org/" target="_blank" rel="noopener noreferrer">Investigative Reporting Workshop</a>. He began his career as a business reporter at Caixin Media and Yicai in Shanghai.
 				</p>
 				<p>
-					Li came to data journalism in search of narratives that last and hold up, the kind built on databases and documents. AI has since accelerated that craft, putting evidence-based storytelling within reach of more newsrooms than ever. That led Li to the next question. A story can be lasting and right and still go unheard. What he looks for now is a narrative people choose to trust, one carried by a voice they know and a relationship they can return to.
+					Li came to data journalism in search of narratives that last and hold up, the kind built on databases and documents. AI has since accelerated that craft, putting data-driven storytelling within reach of more newsrooms than ever. A narrative can have real staying power and still go unheard. What he looks for now is a narrative people choose to trust, one carried by a voice they know and a relationship they can return to.
 				</p>
 				<p>
 					Li holds a master's degree in journalism and media from the University of Texas at Austin. He also trained at Investigative Reporters & Editors, with support from the Dow Jones News Fund. He has served as a judge for several major journalism competitions.
@@ -153,11 +153,17 @@
 		color: #111827;
 	}
 
+	.intro-content {
+		max-width: 580px;
+	}
+
 	.intro-content p {
-		font-size: 1.1rem;
-		line-height: 1.8;
+		font-size: 1rem;
+		line-height: 1.75;
 		color: #374151;
-		margin-bottom: 1.5rem;
+		margin-bottom: 1.25rem;
+		text-align: justify;
+		hyphens: none;
 	}
 
 	/* Career Sections */
@@ -190,8 +196,8 @@
 	}
 
 	.career-list li {
-		font-size: 1.1rem;
-		line-height: 1.8;
+		font-size: 1rem;
+		line-height: 1.75;
 		color: #374151;
 		margin-bottom: 0.75rem;
 		padding-left: 1.5rem;
@@ -255,6 +261,7 @@
 		background: transparent;
 		padding: 1rem 0 0 0;
 		margin-top: 0.5rem;
+		max-width: calc(300px + 3rem + 580px);
 	}
 
 	.impact-section h2 {
@@ -337,6 +344,7 @@
 	.awards-section {
 		padding: 1rem 0 0 0;
 		margin-top: 0.5rem;
+		max-width: calc(300px + 3rem + 580px);
 	}
 
 	.awards-section h2 {
