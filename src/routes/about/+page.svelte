@@ -30,7 +30,7 @@
 		</div>
 		<div class="intro-content">
 			<p>
-				Jinpeng "JP" Li is a creator journalist based in New York. He reports on technology through the people and the money behind it, tracing the lives it changes, the capital that powers it and the politics it collides with. He writes for news outlets and runs his own video channel, and he treats both as parts of the same practice.
+				Jinpeng "JP" Li is a creator journalist based in New York. He covers AI and the forces around it, from the technology itself to the money and politics that shape it. He reports for news outlets and runs his own video channel, and he treats both as parts of the same practice.
 			</p>
 			<p>
 				More and more people now get their news from short video. Li believes journalism has to follow that attention, and he sees each new medium as a chance to test a new way of reporting. Like a growing number of reporters who have built their own newsletters, podcasts and video channels, he treats the relationship with his audience as part of the work itself.
