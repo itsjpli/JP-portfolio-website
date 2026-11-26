@@ -34,7 +34,7 @@
 
 <svelte:head>
 	<title>Jinpeng Li</title>
-	<meta name="description" content="Jinpeng Li is a data graphics journalist" />
+	<meta name="description" content='Jinpeng "JP" Li is a creator journalist covering AI and the forces around it.' />
 </svelte:head>
 
 <div class="container">
